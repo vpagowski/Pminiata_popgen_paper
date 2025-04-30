@@ -1,6 +1,12 @@
 # Pminata_popgen_paper
  Scripts to reproduce figures for the paper: Population Genomics in P. miniata along the Pacific Coastline Reveal Subtly Diverging Genomics Along an Extensive Range Gap
 
- This documentation is still in progress - please email with any questions or missing links!
+ This documentation is still in progress:
 
- email: vpagowski@gmail.com
+ To add:
+ -readme for each folder
+ -all bash scripts
+ -scripts for supplemental figures
+ -scripts for mainr figures 4-7
+
+
