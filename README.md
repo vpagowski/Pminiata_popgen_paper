@@ -4,6 +4,7 @@
  This documentation is still in progress:
 
  To add:
+ 
  -readme for each folder
  
  -all bash scripts
