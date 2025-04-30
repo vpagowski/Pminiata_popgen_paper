@@ -5,8 +5,11 @@
 
  To add:
  -readme for each folder
+ 
  -all bash scripts
+ 
  -scripts for supplemental figures
- -scripts for mainr figures 4-7
+ 
+ -scripts for main figures 4-7
 
 
