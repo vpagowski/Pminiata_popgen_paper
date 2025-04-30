@@ -1,0 +1,424 @@
+filename,mean_fst,weighted_fst,pop1,pop2
+fst.59061324.log,0.00206952,0.0132899,Fort Bragg (AQ),Santa Barbara
+SBA_Bamfield_R2_mindpop0.5_fst.log,0.00513673,0.00893211,Santa Barbara (AQ),Bamfield
+fst.59061342.log,-0.000675432,0.00167568,Monterey,Ensenada
+fst.59061473.log,-0.00302883,0.00238327,San Diego (AQ),Fort Bragg
+fst.59061348.log,-0.00352643,0.00103364,Hazard Canyon,Bamfield (Hi)
+fst.59061317.log,0.00683277,0.016956,Fort Bragg (AQ),Bamfield
+fst.59061332.log,0.00292564,0.0053825,Monterey,Bamfield
+fst.59061351.log,0.00514206,0.0140596,Hazard Canyon,Fort Bragg (AQ)
+fst.59061338.log,0.00336772,0.0054766,Monterey,Santa Barbara (AQ)
+SB_Hazard_R2_mindpop0.5_fst.log,-0.0108194,2.84E-05,Santa Barbara,Hazard Canyon
+fst.59061212.log,-0.000410148,0.00263871,Winter Harbor (Hi),Monterey
+Bamfield_SD_R2_mindpop0.5_fst.log,0.00141929,0.00746689,Bamfield,San Diego (AQ)
+SD_Hazard_R2_mindpop0.5_fst.log,-0.005326,0.000853971,San Diego (AQ),Hazard Canyon
+fst.59061260.log,0.0026977,0.00511045,Bamfield,Fort Bragg
+SBA_FbraggA_R2_mindpop0.5_fst.log,0.000420416,0.00864482,Santa Barbara (AQ),Fort Bragg (AQ)
+fst.59061192.log,0.0157712,0.0313865,Central BC (Hi),LA (AQ)
+fst.59061321.log,0.00579077,0.0147119,Fort Bragg (AQ),Monterey
+WH_BamfieldH_R2_mindpop0.5_fst.log,-0.0026273,0.000658279,Winter Harbor (Hi),Bamfield (Hi)
+SB_SBA_R2_mindpop0.5_fst.log,-0.00990301,0.00234956,Santa Barbara,Santa Barbara (AQ)
+Monterey_Hazard_R2_mindpop0.5_fst.log,-0.00274666,0.000882613,Monterey,Hazard Canyon
+Ucluelet_Central_R2_mindpop0.5_fst.log,0.015951,0.0313893,Ucluelet,Central BC (Hi)
+fst.59061471.log,-0.0034322,0.0021867,San Diego (AQ),Bamfield (Hi)
+fst.59061276.log,-0.0026273,0.000658279,Bamfield (Hi),Winter Harbor (Hi)
+Baja_WH_R2_mindpop0.5_fst.log,-0.00182288,0.00217257,Ensenada,Winter Harbor (Hi)
+fst.59061465.log,0.0176992,0.032816,San Diego (AQ),Central BC (Hi)
+Monterey_SBA_R2_mindpop0.5_fst.log,0.00336772,0.0054766,Monterey,Santa Barbara (AQ)
+Bamfield_Ucluelet_R2_mindpop0.5_fst.log,7.59408,0.00401575,Bamfield,Ucluelet
+Monterey_WH_R2_mindpop0.5_fst.log,-0.000410148,0.00263871,Monterey,Winter Harbor (Hi)
+fst.59061418.log,-0.00817797,0.000401438,Santa Barbara,San Diego (AQ)
+fst.59061248.log,0.000426124,0.00500765,Ucluelet,LA (AQ)
+fst.59061453.log,0.00230283,0.00592481,LA (AQ),Santa Barbara (AQ)
+WH_LA_R2_mindpop0.5_fst.log,0.000485201,0.00426843,Winter Harbor (Hi),LA (AQ)
+FbraggA_LA_R2_mindpop0.5_fst.log,0.00441715,0.013242,Fort Bragg (AQ),LA (AQ)
+Ucluelet_HG_R2_mindpop0.5_fst.log,0.0347977,0.0572179,Ucluelet,Haida Gwaii (Hi)
+fst.59061258.log,0.000177435,0.0024264,Bamfield,Bamfield (Hi)
+fst.59061148.log,0.0290895,0.0486733,Haida Gwaii (Hi),Bamfield (Hi)
+SBA_Ucluelet_R2_mindpop0.5_fst.log,0.00170102,0.00694485,Santa Barbara (AQ),Ucluelet
+WH_FbraggA_R2_mindpop0.5_fst.log,0.00843649,0.0189737,Winter Harbor (Hi),Fort Bragg (AQ)
+fst.59061219.log,-0.00789301,0.00467409,Winter Harbor (Hi),Santa Barbara
+fst.59061299.log,0.0026977,0.00511045,Fort Bragg,Bamfield
+fst.59061194.log,0.0176992,0.032816,Central BC (Hi),San Diego (AQ)
+fst.59061263.log,0.00292564,0.0053825,Bamfield,Monterey
+fst.59061361.log,0.00249395,0.00703045,Santa Barbara (AQ),Winter Harbor (Hi)
+FbraggA_HG_R2_mindpop0.5_fst.log,0.0412443,0.0722549,Fort Bragg (AQ),Haida Gwaii (Hi)
+fst.59061372.log,-0.00990301,0.00234956,Santa Barbara (AQ),Santa Barbara
+fst.59061474.log,0.00698499,0.0168398,San Diego (AQ),Fort Bragg (AQ)
+fst.59061349.log,-0.00316309,0.000368211,Hazard Canyon,Fort Bragg
+fst.59061431.log,0.000426124,0.00500765,LA (AQ),Ucluelet
+LA_Baja_R2_mindpop0.5_fst.log,-0.000940957,0.00249151,LA (AQ),Ensenada
+Bamfield_BamfieldH_R2_mindpop0.5_fst.log,0.000177435,0.0024264,Bamfield,Bamfield (Hi)
+Bamfield_LA_R2_mindpop0.5_fst.log,0.00320837,0.00668819,Bamfield,LA (AQ)
+fst.59061230.log,9.27608,0.00488194,Ucluelet,Winter Harbor (Hi)
+BamfieldH_SB_R2_mindpop0.5_fst.log,-0.00641776,0.00156096,Bamfield (Hi),Santa Barbara
+Ucluelet_FbraggA_R2_mindpop0.5_fst.log,0.00572189,0.0151971,Ucluelet,Fort Bragg (AQ)
+Hazard_Fbragg_R2_mindpop0.5_fst.log,-0.00316309,0.000368211,Hazard Canyon,Fort Bragg
+fst.59061359.log,0.0339818,0.057041,Santa Barbara (AQ),Haida Gwaii (Hi)
+Monterey_Bamfield_R2_mindpop0.5_fst.log,0.00292564,0.0053825,Monterey,Bamfield
+fst.59061309.log,-0.0119849,0.00133599,Fort Bragg,Santa Barbara
+fst.59061312.log,-0.00106382,0.00127545,Fort Bragg,Ensenada
+fst.59061165.log,0.0344682,0.0543098,Haida Gwaii (Hi),San Diego (AQ)
+fst.59061391.log,0.0131956,0.0307389,Santa Barbara,Central BC (Hi)
+fst.59061214.log,-0.00169452,0.0030832,Winter Harbor (Hi),Hazard Canyon
+LA_Ucluelet_R2_mindpop0.5_fst.log,0.000426124,0.00500765,LA (AQ),Ucluelet
+fst.59061280.log,0.000674085,0.00282377,Bamfield (Hi),Fort Bragg
+SB_Ucluelet_R2_mindpop0.5_fst.log,-0.0063233,0.00512421,Santa Barbara,Ucluelet
+WH_Fbragg_R2_mindpop0.5_fst.log,-0.000710528,0.0021988,Winter Harbor (Hi),Fort Bragg
+fst.59061466.log,-0.00258847,0.00372419,San Diego (AQ),Winter Harbor (Hi)
+fst.59061249.log,-0.00101402,0.00601113,Ucluelet,San Diego (AQ)
+Hazard_WH_R2_mindpop0.5_fst.log,-0.00169452,0.0030832,Hazard Canyon,Winter Harbor (Hi)
+fst.59061239.log,0.00572189,0.0151971,Ucluelet,Fort Bragg (AQ)
+fst.59061306.log,-0.000859172,1.67E-06,Fort Bragg,Monterey
+Bamfield_Fbragg_R2_mindpop0.5_fst.log,0.0026977,0.00511045,Bamfield,Fort Bragg
+fst.59061444.log,-0.000262107,0.00198289,LA (AQ),Fort Bragg
+Fbragg_SBA_R2_mindpop0.5_fst.log,0.00299051,0.00492688,Fort Bragg,Santa Barbara (AQ)
+SD_Baja_R2_mindpop0.5_fst.log,-0.00510248,0.00044874,San Diego (AQ),Ensenada
+fst.59061155.log,0.0314609,0.0511284,Haida Gwaii (Hi),Monterey
+SBA_HG_R2_mindpop0.5_fst.log,0.0339818,0.057041,Santa Barbara (AQ),Haida Gwaii (Hi)
+fst.59061428.log,0.0157712,0.0313865,LA (AQ),Central BC (Hi)
+fst.59061252.log,0.0162005,0.0320468,Bamfield,Central BC (Hi)
+Fbragg_Ucluelet_R2_mindpop0.5_fst.log,0.000143262,0.00453399,Fort Bragg,Ucluelet
+BamfieldH_LA_R2_mindpop0.5_fst.log,-0.000328997,0.00302736,Bamfield (Hi),LA (AQ)
+B_BH_split_mindpop0.65_fst.log,-0.000250682,0.00218114,Bamfield,Bamfield (Hi)
+fst.59061183.log,0.0157276,0.0344182,Central BC (Hi),Fort Bragg (AQ)
+fst.59061450.log,-2.39994,0.00225637,LA (AQ),Monterey
+Baja_BamfieldH_R2_mindpop0.5_fst.log,4.74381,0.00301813,Ensenada,Bamfield (Hi)
+BamfieldH_HG_R2_mindpop0.5_fst.log,0.0290895,0.0486733,Bamfield (Hi),Haida Gwaii (Hi)
+WH_Ucluelet_R2_mindpop0.5_fst.log,9.27608,0.00488194,Winter Harbor (Hi),Ucluelet
+Monterey_LA_R2_mindpop0.5_fst.log,-2.39994,0.00225637,Monterey,LA (AQ)
+WH_Monterey_R2_mindpop0.5_fst.log,-0.000410148,0.00263871,Winter Harbor (Hi),Monterey
+fst.59061240.log,0.000666561,0.00515588,Ucluelet,Monterey
+BamfieldH_WH_R2_mindpop0.5_fst.log,-0.0026273,0.000658279,Bamfield (Hi),Winter Harbor (Hi)
+Monterey_Baja_R2_mindpop0.5_fst.log,-0.000675432,0.00167568,Monterey,Ensenada
+fst.59061419.log,-0.00753727,0.00038429,Santa Barbara,Ensenada
+fst.59061440.log,-0.000328997,0.00302736,LA (AQ),Bamfield (Hi)
+Central_HG_R2_mindpop0.5_fst.log,0.0372931,0.0631258,Central BC (Hi),Haida Gwaii (Hi)
+fst.59061266.log,-0.00626248,0.00670472,Bamfield,Santa Barbara
+fst.59061246.log,-0.0063233,0.00512421,Ucluelet,Santa Barbara
+FbraggA_Monterey_R2_mindpop0.5_fst.log,0.00579077,0.0147119,Fort Bragg (AQ),Monterey
+SB_BamfieldH_R2_mindpop0.5_fst.log,-0.00641776,0.00156096,Santa Barbara,Bamfield (Hi)
+SBA_Baja_R2_mindpop0.5_fst.log,-0.000454248,0.00326601,Santa Barbara (AQ),Ensenada
+LA_SBA_R2_mindpop0.5_fst.log,0.00230283,0.00592481,LA (AQ),Santa Barbara (AQ)
+LA_Hazard_R2_mindpop0.5_fst.log,-0.00181913,0.00211178,LA (AQ),Hazard Canyon
+fst.59061380.log,0.00230283,0.00592481,Santa Barbara (AQ),LA (AQ)
+fst.59061308.log,0.00299051,0.00492688,Fort Bragg,Santa Barbara (AQ)
+Ucluelet_SBA_R2_mindpop0.5_fst.log,0.00170102,0.00694485,Ucluelet,Santa Barbara (AQ)
+fst.59061250.log,-0.000924029,0.00434639,Ucluelet,Ensenada
+Ucluelet_Fbragg_R2_mindpop0.5_fst.log,0.000143262,0.00453399,Ucluelet,Fort Bragg
+fst.59061333.log,0.000957664,0.00310222,Monterey,Bamfield (Hi)
+fst.59061211.log,0.00843649,0.0189737,Winter Harbor (Hi),Fort Bragg (AQ)
+SBA_BamfieldH_R2_mindpop0.5_fst.log,0.000342041,0.00393569,Santa Barbara (AQ),Bamfield (Hi)
+SBA_WH_R2_mindpop0.5_fst.log,0.00249395,0.00703045,Santa Barbara (AQ),Winter Harbor (Hi)
+LA_FbraggA_R2_mindpop0.5_fst.log,0.00441715,0.013242,LA (AQ),Fort Bragg (AQ)
+Bamfield_SB_R2_mindpop0.5_fst.log,-0.00626248,0.00670472,Bamfield,Santa Barbara
+fst.59061326.log,0.00698499,0.0168398,Fort Bragg (AQ),San Diego (AQ)
+Monterey_BamfieldH_R2_mindpop0.5_fst.log,0.000957664,0.00310222,Monterey,Bamfield (Hi)
+SB_SBA_R2_mindpop0.65_fst.log,-0.00519368,0.00189293,Santa Barbara,Santa Barbara (AQ)
+fst.59061138.log,0.0332474,0.0536146,Haida Gwaii (Hi),Winter Harbor (Hi)
+WH_Central_R2_mindpop0.5_fst.log,0.0171327,0.0323179,Winter Harbor (Hi),Central BC (Hi)
+Fbragg_SD_R2_mindpop0.5_fst.log,-0.00302883,0.00238327,Fort Bragg,San Diego (AQ)
+Ucluelet_Monterey_R2_mindpop0.5_fst.log,0.000666561,0.00515588,Ucluelet,Monterey
+fst.59061189.log,0.0145767,0.0304904,Central BC (Hi),Santa Barbara (AQ)
+Baja_Central_R2_mindpop0.5_fst.log,0.0147876,0.0301517,Ensenada,Central BC (Hi)
+FbraggA_Bamfield_R2_mindpop0.5_fst.log,0.00683277,0.016956,Fort Bragg (AQ),Bamfield
+Hazard_Ucluelet_R2_mindpop0.5_fst.log,-0.000779952,0.00451364,Hazard Canyon,Ucluelet
+LA_WH_R2_mindpop0.5_fst.log,0.000485201,0.00426843,LA (AQ),Winter Harbor (Hi)
+LA_SB_R2_mindpop0.5_fst.log,-0.00878172,0.00313448,LA (AQ),Santa Barbara
+Central_Baja_R2_mindpop0.5_fst.log,0.0147876,0.0301517,Central BC (Hi),Ensenada
+fst.59061489.log,-0.00106382,0.00127545,Ensenada,Fort Bragg
+fst.59061294.log,4.74381,0.00301813,Bamfield (Hi),Ensenada
+Fbragg_Central_R2_mindpop0.5_fst.log,0.0145187,0.0295858,Fort Bragg,Central BC (Hi)
+LA_Fbragg_R2_mindpop0.5_fst.log,-0.000262107,0.00198289,LA (AQ),Fort Bragg
+Ucluelet_BamfieldH_R2_mindpop0.5_fst.log,-0.00405901,2.99E-05,Ucluelet,Bamfield (Hi)
+Baja_LA_R2_mindpop0.5_fst.log,-0.000940957,0.00249151,Ensenada,LA (AQ)
+Hazard_HG_R2_mindpop0.5_fst.log,0.033624,0.0548408,Hazard Canyon,Haida Gwaii (Hi)
+fst.59061284.log,0.000957664,0.00310222,Bamfield (Hi),Monterey
+fst.59061346.log,-0.000779952,0.00451364,Hazard Canyon,Ucluelet
+BamfieldH_Baja_R2_mindpop0.5_fst.log,4.74381,0.00301813,Bamfield (Hi),Ensenada
+Hazard_Baja_R2_mindpop0.5_fst.log,-0.00460856,0.000189647,Hazard Canyon,Ensenada
+Hazard_LA_R2_mindpop0.5_fst.log,-0.00181913,0.00211178,Hazard Canyon,LA (AQ)
+LA_BamfieldH_R2_mindpop0.5_fst.log,-0.000328997,0.00302736,LA (AQ),Bamfield (Hi)
+fst.59061364.log,0.000342041,0.00393569,Santa Barbara (AQ),Bamfield (Hi)
+HG_Hazard_R2_mindpop0.5_fst.log,0.033624,0.0548408,Haida Gwaii (Hi),Hazard Canyon
+fst.59061491.log,-0.000675432,0.00167568,Ensenada,Monterey
+fst.59061288.log,0.000342041,0.00393569,Bamfield (Hi),Santa Barbara (AQ)
+SB_SD_R2_mindpop0.5_fst.log,-0.00817797,0.000401438,Santa Barbara,San Diego (AQ)
+fst.59061167.log,0.0308552,0.0502898,Haida Gwaii (Hi),Ensenada
+fst.59061159.log,0.0339818,0.057041,Haida Gwaii (Hi),Santa Barbara (AQ)
+fst.59061224.log,-0.00258847,0.00372419,Winter Harbor (Hi),San Diego (AQ)
+Baja_Monterey_R2_mindpop0.5_fst.log,-0.000675432,0.00167568,Ensenada,Monterey
+Baja_SB_R2_mindpop0.5_fst.log,-0.00753727,0.00038429,Ensenada,Santa Barbara
+fst.59061492.log,-0.00460856,0.000189647,Ensenada,Hazard Canyon
+fst.59061482.log,-0.00510248,0.00044874,San Diego (AQ),Ensenada
+fst.59061455.log,-0.00878172,0.00313448,LA (AQ),Santa Barbara
+fst.59061486.log,-0.000924029,0.00434639,Ensenada,Ucluelet
+fst.59061495.log,-0.000940957,0.00249151,Ensenada,LA (AQ)
+fst.59061404.log,-0.0108194,2.84E-05,Santa Barbara,Hazard Canyon
+BamfieldH_Central_R2_mindpop0.5_fst.log,0.0127231,0.028055,Bamfield (Hi),Central BC (Hi)
+fst.59061265.log,0.00513673,0.00893211,Bamfield,Santa Barbara (AQ)
+Central_Hazard_R2_mindpop0.5_fst.log,0.0156257,0.0304998,Central BC (Hi),Hazard Canyon
+fst.59061286.log,-0.00352643,0.00103364,Bamfield (Hi),Hazard Canyon
+fst.59061496.log,-0.00510248,0.00044874,Ensenada,San Diego (AQ)
+fst.59061334.log,-0.000859172,1.67E-06,Monterey,Fort Bragg
+fst.59061493.log,-0.000454248,0.00326601,Ensenada,Santa Barbara (AQ)
+Ucluelet_LA_R2_mindpop0.5_fst.log,0.000426124,0.00500765,Ucluelet,LA (AQ)
+Bamfield_Central_R2_mindpop0.5_fst.log,0.0162005,0.0320468,Bamfield,Central BC (Hi)
+fst.59061274.log,0.0127231,0.028055,Bamfield (Hi),Central BC (Hi)
+fst.59061242.log,-0.000779952,0.00451364,Ucluelet,Hazard Canyon
+fst.59061177.log,0.0162005,0.0320468,Central BC (Hi),Bamfield
+LA_Central_R2_mindpop0.5_fst.log,0.0157712,0.0313865,LA (AQ),Central BC (Hi)
+LA_Bamfield_R2_mindpop0.5_fst.log,0.00320837,0.00668819,LA (AQ),Bamfield
+fst.59061362.log,0.00170102,0.00694485,Santa Barbara (AQ),Ucluelet
+SB_Central_R2_mindpop0.5_fst.log,0.0131956,0.0307389,Santa Barbara,Central BC (Hi)
+fst.59061215.log,0.00249395,0.00703045,Winter Harbor (Hi),Santa Barbara (AQ)
+fst.59061329.log,0.0153985,0.0305431,Monterey,Central BC (Hi)
+B_BH_R2_mindpop0.65_fst.log,0.0026977,0.00511045,Bamfield,Fort Bragg
+Central_Fbragg_R2_mindpop0.5_fst.log,0.0145187,0.0295858,Central BC (Hi),Fort Bragg
+SD_FbraggA_R2_mindpop0.5_fst.log,0.00698499,0.0168398,San Diego (AQ),Fort Bragg (AQ)
+fst.59061322.log,0.00514206,0.0140596,Fort Bragg (AQ),Hazard Canyon
+fst.59061169.log,0.0372931,0.0631258,Central BC (Hi),Haida Gwaii (Hi)
+fst.59061483.log,0.0308552,0.0502898,Ensenada,Haida Gwaii (Hi)
+fst.59061343.log,0.033624,0.0548408,Hazard Canyon,Haida Gwaii (Hi)
+fst.59061488.log,4.74381,0.00301813,Ensenada,Bamfield (Hi)
+SD_LA_R2_mindpop0.5_fst.log,-0.00174706,0.00399387,San Diego (AQ),LA (AQ)
+Bamfield_WH_R2_mindpop0.5_fst.log,0.00172517,0.00513758,Bamfield,Winter Harbor (Hi)
+fst.59061447.log,0.00441715,0.013242,LA (AQ),Fort Bragg (AQ)
+fst.59061209.log,-0.000710528,0.0021988,Winter Harbor (Hi),Fort Bragg
+fst.59061229.log,0.015951,0.0313893,Ucluelet,Central BC (Hi)
+Monterey_Ucluelet_R2_mindpop0.5_fst.log,0.000666561,0.00515588,Monterey,Ucluelet
+SB_Baja_R2_mindpop0.5_fst.log,-0.00753727,0.00038429,Santa Barbara,Ensenada
+Baja_FbraggA_R2_mindpop0.5_fst.log,0.00364276,0.0137438,Ensenada,Fort Bragg (AQ)
+fst.59061291.log,-0.00641776,0.00156096,Bamfield (Hi),Santa Barbara
+fst.59061272.log,0.0290895,0.0486733,Bamfield (Hi),Haida Gwaii (Hi)
+fst.59061403.log,-0.0108099,0.00263995,Santa Barbara,Monterey
+WH_SB_R2_mindpop0.5_fst.log,-0.00789301,0.00467409,Winter Harbor (Hi),Santa Barbara
+fst.59061475.log,-0.00244444,0.00300469,San Diego (AQ),Monterey
+fst.59061298.log,0.000143262,0.00453399,Fort Bragg,Ucluelet
+Ucluelet_Baja_R2_mindpop0.5_fst.log,-0.000924029,0.00434639,Ucluelet,Ensenada
+fst.59061433.log,0.00320837,0.00668819,LA (AQ),Bamfield
+fst.59061172.log,0.0171327,0.0323179,Central BC (Hi),Winter Harbor (Hi)
+WH_SBA_R2_mindpop0.5_fst.log,0.00249395,0.00703045,Winter Harbor (Hi),Santa Barbara (AQ)
+fst.59061186.log,0.0156257,0.0304998,Central BC (Hi),Hazard Canyon
+fst.59061430.log,0.000485201,0.00426843,LA (AQ),Winter Harbor (Hi)
+BamfieldH_SBA_R2_mindpop0.5_fst.log,0.000342041,0.00393569,Bamfield (Hi),Santa Barbara (AQ)
+FbraggA_Ucluelet_R2_mindpop0.5_fst.log,0.00572189,0.0151971,Fort Bragg (AQ),Ucluelet
+Baja_Bamfield_R2_mindpop0.5_fst.log,0.00272145,0.00610859,Ensenada,Bamfield
+fst.59061174.log,0.015951,0.0313893,Central BC (Hi),Ucluelet
+fst.59061487.log,0.00272145,0.00610859,Ensenada,Bamfield
+fst.59061417.log,-0.00878172,0.00313448,Santa Barbara,LA (AQ)
+fst.59061394.log,-0.0063233,0.00512421,Santa Barbara,Ucluelet
+HG_Central_R2_mindpop0.5_fst.log,0.0372931,0.0631258,Haida Gwaii (Hi),Central BC (Hi)
+Fbragg_Baja_R2_mindpop0.5_fst.log,-0.00106382,0.00127545,Fort Bragg,Ensenada
+SBA_SB_R2_mindpop0.5_fst.log,-0.00990301,0.00234956,Santa Barbara (AQ),Santa Barbara
+fst.59061179.log,0.0127231,0.028055,Central BC (Hi),Bamfield (Hi)
+Bamfield_HG_R2_mindpop0.5_fst.log,0.0340329,0.05555,Bamfield,Haida Gwaii (Hi)
+BamfieldH_Monterey_R2_mindpop0.5_fst.log,0.000957664,0.00310222,Bamfield (Hi),Monterey
+FbraggA_SB_R2_mindpop0.5_fst.log,0.00206952,0.0132899,Fort Bragg (AQ),Santa Barbara
+SBA_Fbragg_R2_mindpop0.5_fst.log,0.00299051,0.00492688,Santa Barbara (AQ),Fort Bragg
+SB_HG_R2_mindpop0.5_fst.log,0.0337245,0.0593592,Santa Barbara,Haida Gwaii (Hi)
+fst.59061365.log,0.00299051,0.00492688,Santa Barbara (AQ),Fort Bragg
+fst.59061203.log,9.27608,0.00488194,Winter Harbor (Hi),Ucluelet
+SBA_Central_R2_mindpop0.5_fst.log,0.0145767,0.0304904,Santa Barbara (AQ),Central BC (Hi)
+Hazard_FbraggA_R2_mindpop0.5_fst.log,0.00514206,0.0140596,Hazard Canyon,Fort Bragg (AQ)
+fst.59061335.log,0.00579077,0.0147119,Monterey,Fort Bragg (AQ)
+fst.59061262.log,0.00683277,0.016956,Bamfield,Fort Bragg (AQ)
+fst.59061395.log,-0.00626248,0.00670472,Santa Barbara,Bamfield
+FbraggA_Baja_R2_mindpop0.5_fst.log,0.00364276,0.0137438,Fort Bragg (AQ),Ensenada
+SB_Monterey_R2_mindpop0.5_fst.log,-0.0108099,0.00263995,Santa Barbara,Monterey
+fst.59061234.log,7.59408,0.00401575,Ucluelet,Bamfield
+fst.59061277.log,-0.00405901,2.99E-05,Bamfield (Hi),Ucluelet
+HG_SBA_R2_mindpop0.5_fst.log,0.0339818,0.057041,Haida Gwaii (Hi),Santa Barbara (AQ)
+SD_SBA_R2_mindpop0.5_fst.log,-0.00196634,0.00406102,San Diego (AQ),Santa Barbara (AQ)
+fst.59061305.log,0.00477332,0.0134832,Fort Bragg,Fort Bragg (AQ)
+FbraggA_WH_R2_mindpop0.5_fst.log,0.00843649,0.0189737,Fort Bragg (AQ),Winter Harbor (Hi)
+fst.59061296.log,0.0145187,0.0295858,Fort Bragg,Central BC (Hi)
+WH_Baja_R2_mindpop0.5_fst.log,-0.00182288,0.00217257,Winter Harbor (Hi),Ensenada
+fst.59061293.log,-0.0034322,0.0021867,Bamfield (Hi),San Diego (AQ)
+Baja_SD_R2_mindpop0.5_fst.log,-0.00510248,0.00044874,Ensenada,San Diego (AQ)
+Bamfield_SBA_R2_mindpop0.5_fst.log,0.00513673,0.00893211,Bamfield,Santa Barbara (AQ)
+Bamfield_Hazard_R2_mindpop0.5_fst.log,0.00110897,0.00558507,Bamfield,Hazard Canyon
+SB_Bamfield_R2_mindpop0.5_fst.log,-0.00626248,0.00670472,Santa Barbara,Bamfield
+SD_Fbragg_R2_mindpop0.5_fst.log,-0.00302883,0.00238327,San Diego (AQ),Fort Bragg
+Hazard_Central_R2_mindpop0.5_fst.log,0.0156257,0.0304998,Hazard Canyon,Central BC (Hi)
+fst.59061490.log,0.00364276,0.0137438,Ensenada,Fort Bragg (AQ)
+fst.59061314.log,0.0157276,0.0344182,Fort Bragg (AQ),Central BC (Hi)
+Central_SBA_R2_mindpop0.5_fst.log,0.0145767,0.0304904,Central BC (Hi),Santa Barbara (AQ)
+fst.59061401.log,0.00206952,0.0132899,Santa Barbara,Fort Bragg (AQ)
+SB_WH_R2_mindpop0.5_fst.log,-0.00789301,0.00467409,Santa Barbara,Winter Harbor (Hi)
+SBA_LA_R2_mindpop0.5_fst.log,0.00230283,0.00592481,Santa Barbara (AQ),LA (AQ)
+fst.59061269.log,0.00141929,0.00746689,Bamfield,San Diego (AQ)
+FbraggA_Hazard_R2_mindpop0.5_fst.log,0.00514206,0.0140596,Fort Bragg (AQ),Hazard Canyon
+Hazard_Bamfield_R2_mindpop0.5_fst.log,0.00110897,0.00558507,Hazard Canyon,Bamfield
+Hazard_SBA_R2_mindpop0.5_fst.log,-0.000839115,0.00365363,Hazard Canyon,Santa Barbara (AQ)
+fst.59061181.log,0.0145187,0.0295858,Central BC (Hi),Fort Bragg
+SD_HG_R2_mindpop0.5_fst.log,0.0344682,0.0543098,San Diego (AQ),Haida Gwaii (Hi)
+fst.59061426.log,0.0333688,0.0549666,LA (AQ),Haida Gwaii (Hi)
+fst.59061264.log,0.00110897,0.00558507,Bamfield,Hazard Canyon
+fst.59061310.log,-0.000262107,0.00198289,Fort Bragg,LA (AQ)
+fst.59061470.log,0.00141929,0.00746689,San Diego (AQ),Bamfield
+SBA_Hazard_R2_mindpop0.5_fst.log,-0.000839115,0.00365363,Santa Barbara (AQ),Hazard Canyon
+fst.59061316.log,0.00572189,0.0151971,Fort Bragg (AQ),Ucluelet
+fst.59061383.log,-0.000454248,0.00326601,Santa Barbara (AQ),Ensenada
+fst.59061476.log,-0.005326,0.000853971,San Diego (AQ),Hazard Canyon
+Central_WH_R2_mindpop0.5_fst.log,0.0171327,0.0323179,Central BC (Hi),Winter Harbor (Hi)
+SB_LA_R2_mindpop0.5_fst.log,-0.00878172,0.00313448,Santa Barbara,LA (AQ)
+fst.59061356.log,-0.00181913,0.00211178,Hazard Canyon,LA (AQ)
+fst.59061319.log,0.00477332,0.0134832,Fort Bragg (AQ),Fort Bragg
+LA_HG_R2_mindpop0.5_fst.log,0.0333688,0.0549666,LA (AQ),Haida Gwaii (Hi)
+HG_Ucluelet_R2_mindpop0.5_fst.log,0.0347977,0.0572179,Haida Gwaii (Hi),Ucluelet
+fst.59061494.log,-0.00753727,0.00038429,Ensenada,Santa Barbara
+fst.59061367.log,0.00336772,0.0054766,Santa Barbara (AQ),Monterey
+fst.59061225.log,-0.00182288,0.00217257,Winter Harbor (Hi),Ensenada
+fst.59061297.log,-0.000710528,0.0021988,Fort Bragg,Winter Harbor (Hi)
+BamfieldH_Fbragg_R2_mindpop0.5_fst.log,0.000674085,0.00282377,Bamfield (Hi),Fort Bragg
+Hazard_SB_R2_mindpop0.5_fst.log,-0.0108194,2.84E-05,Hazard Canyon,Santa Barbara
+fst.59061345.log,-0.00169452,0.0030832,Hazard Canyon,Winter Harbor (Hi)
+fst.59061255.log,7.59408,0.00401575,Bamfield,Ucluelet
+fst.59061330.log,-0.000410148,0.00263871,Monterey,Winter Harbor (Hi)
+fst.59061185.log,0.0153985,0.0305431,Central BC (Hi),Monterey
+HG_SB_R2_mindpop0.5_fst.log,0.0337245,0.0593592,Haida Gwaii (Hi),Santa Barbara
+HG_FbraggA_R2_mindpop0.5_fst.log,0.0412443,0.0722549,Haida Gwaii (Hi),Fort Bragg (AQ)
+fst.59061354.log,-0.000839115,0.00365363,Hazard Canyon,Santa Barbara (AQ)
+fst.59061253.log,0.00172517,0.00513758,Bamfield,Winter Harbor (Hi)
+Central_SD_R2_mindpop0.5_fst.log,0.0176992,0.032816,Central BC (Hi),San Diego (AQ)
+Baja_Hazard_R2_mindpop0.5_fst.log,-0.00460856,0.000189647,Ensenada,Hazard Canyon
+Baja_HG_R2_mindpop0.5_fst.log,0.0308552,0.0502898,Ensenada,Haida Gwaii (Hi)
+fst.59061461.log,-0.000940957,0.00249151,LA (AQ),Ensenada
+SD_Bamfield_R2_mindpop0.5_fst.log,0.00141929,0.00746689,San Diego (AQ),Bamfield
+fst.59061227.log,0.0347977,0.0572179,Ucluelet,Haida Gwaii (Hi)
+Central_FbraggA_R2_mindpop0.5_fst.log,0.0157276,0.0344182,Central BC (Hi),Fort Bragg (AQ)
+Ucluelet_Bamfield_R2_mindpop0.5_fst.log,7.59408,0.00401575,Ucluelet,Bamfield
+LA_Monterey_R2_mindpop0.5_fst.log,-2.39994,0.00225637,LA (AQ),Monterey
+Fbragg_Bamfield_R2_mindpop0.5_fst.log,0.0026977,0.00511045,Fort Bragg,Bamfield
+fst.59061150.log,0.0310208,0.050704,Haida Gwaii (Hi),Fort Bragg
+fst.59061222.log,0.000485201,0.00426843,Winter Harbor (Hi),LA (AQ)
+fst.59061331.log,0.000666561,0.00515588,Monterey,Ucluelet
+fst.59061163.log,0.0333688,0.0549666,Haida Gwaii (Hi),LA (AQ)
+Monterey_Fbragg_R2_mindpop0.5_fst.log,-0.000859172,1.67E-06,Monterey,Fort Bragg
+fst.59061313.log,0.0412443,0.0722549,Fort Bragg (AQ),Haida Gwaii (Hi)
+Fbragg_Hazard_R2_mindpop0.5_fst.log,-0.00316309,0.000368211,Fort Bragg,Hazard Canyon
+SD_WH_R2_mindpop0.5_fst.log,-0.00258847,0.00372419,San Diego (AQ),Winter Harbor (Hi)
+fst.59061142.log,0.0347977,0.0572179,Haida Gwaii (Hi),Ucluelet
+fst.59061484.log,0.0147876,0.0301517,Ensenada,Central BC (Hi)
+fst.59061292.log,-0.000328997,0.00302736,Bamfield (Hi),LA (AQ)
+SD_SB_R2_mindpop0.5_fst.log,-0.00817797,0.000401438,San Diego (AQ),Santa Barbara
+Monterey_SB_R2_mindpop0.5_fst.log,-0.0108099,0.00263995,Monterey,Santa Barbara
+BamfieldH_SD_R2_mindpop0.5_fst.log,-0.0034322,0.0021867,Bamfield (Hi),San Diego (AQ)
+SD_Central_R2_mindpop0.5_fst.log,0.0176992,0.032816,San Diego (AQ),Central BC (Hi)
+Monterey_FbraggA_R2_mindpop0.5_fst.log,0.00579077,0.0147119,Monterey,Fort Bragg (AQ)
+Baja_Ucluelet_R2_mindpop0.5_fst.log,-0.000924029,0.00434639,Ensenada,Ucluelet
+HG_Monterey_R2_mindpop0.5_fst.log,0.0314609,0.0511284,Haida Gwaii (Hi),Monterey
+HG_SD_R2_mindpop0.5_fst.log,0.0344682,0.0543098,Haida Gwaii (Hi),San Diego (AQ)
+HG_BamfieldH_R2_mindpop0.5_fst.log,0.0290895,0.0486733,Haida Gwaii (Hi),Bamfield (Hi)
+fst.59061318.log,0.00203833,0.0123966,Fort Bragg (AQ),Bamfield (Hi)
+fst.59061480.log,-0.00174706,0.00399387,San Diego (AQ),LA (AQ)
+fst.59061135.log,0.0372931,0.0631258,Haida Gwaii (Hi),Central BC (Hi)
+fst.59061267.log,0.00320837,0.00668819,Bamfield,LA (AQ)
+HG_Bamfield_R2_mindpop0.5_fst.log,0.0340329,0.05555,Haida Gwaii (Hi),Bamfield
+Central_SB_R2_mindpop0.5_fst.log,0.0131956,0.0307389,Central BC (Hi),Santa Barbara
+fst.59061360.log,0.0145767,0.0304904,Santa Barbara (AQ),Central BC (Hi)
+fst.59061368.log,-0.000839115,0.00365363,Santa Barbara (AQ),Hazard Canyon
+fst.59061325.log,0.00441715,0.013242,Fort Bragg (AQ),LA (AQ)
+Ucluelet_WH_R2_mindpop0.5_fst.log,9.27608,0.00488194,Ucluelet,Winter Harbor (Hi)
+fst.59061358.log,-0.00460856,0.000189647,Hazard Canyon,Ensenada
+Monterey_HG_R2_mindpop0.5_fst.log,0.0314609,0.0511284,Monterey,Haida Gwaii (Hi)
+fst.59061283.log,0.00203833,0.0123966,Bamfield (Hi),Fort Bragg (AQ)
+fst.59061161.log,0.0337245,0.0593592,Haida Gwaii (Hi),Santa Barbara
+Fbragg_SB_R2_mindpop0.5_fst.log,-0.0119849,0.00133599,Fort Bragg,Santa Barbara
+fst.59061207.log,-0.0026273,0.000658279,Winter Harbor (Hi),Bamfield (Hi)
+WH_Hazard_R2_mindpop0.5_fst.log,-0.00169452,0.0030832,Winter Harbor (Hi),Hazard Canyon
+fst.59061468.log,-0.00101402,0.00601113,San Diego (AQ),Ucluelet
+fst.59061323.log,0.000420416,0.00864482,Fort Bragg (AQ),Santa Barbara (AQ)
+SBA_SD_R2_mindpop0.5_fst.log,-0.00196634,0.00406102,Santa Barbara (AQ),San Diego (AQ)
+fst.59061463.log,0.0344682,0.0543098,San Diego (AQ),Haida Gwaii (Hi)
+BamfieldH_Ucluelet_R2_mindpop0.5_fst.log,-0.00405901,2.99E-05,Bamfield (Hi),Ucluelet
+fst.59061340.log,-2.39994,0.00225637,Monterey,LA (AQ)
+Fbragg_WH_R2_mindpop0.5_fst.log,-0.000710528,0.0021988,Fort Bragg,Winter Harbor (Hi)
+Ucluelet_SB_R2_mindpop0.5_fst.log,-0.0063233,0.00512421,Ucluelet,Santa Barbara
+BamfieldH_Bamfield_R2_mindpop0.5_fst.log,0.000177435,0.0024264,Bamfield (Hi),Bamfield
+Hazard_BamfieldH_R2_mindpop0.5_fst.log,-0.00352643,0.00103364,Hazard Canyon,Bamfield (Hi)
+fst.59061392.log,-0.00789301,0.00467409,Santa Barbara,Winter Harbor (Hi)
+fst.59061153.log,0.0412443,0.0722549,Haida Gwaii (Hi),Fort Bragg (AQ)
+fst.59061485.log,-0.00182288,0.00217257,Ensenada,Winter Harbor (Hi)
+fst.59061385.log,0.0337245,0.0593592,Santa Barbara,Haida Gwaii (Hi)
+HG_WH_R2_mindpop0.5_fst.log,0.0332474,0.0536146,Haida Gwaii (Hi),Winter Harbor (Hi)
+fst.59061307.log,-0.00316309,0.000368211,Fort Bragg,Hazard Canyon
+fst.59061315.log,0.00843649,0.0189737,Fort Bragg (AQ),Winter Harbor (Hi)
+fst.59061337.log,-0.00274666,0.000882613,Monterey,Hazard Canyon
+Fbragg_BamfieldH_R2_mindpop0.5_fst.log,0.000674085,0.00282377,Fort Bragg,Bamfield (Hi)
+fst.59061205.log,0.00172517,0.00513758,Winter Harbor (Hi),Bamfield
+fst.59061145.log,0.0340329,0.05555,Haida Gwaii (Hi),Bamfield
+fst.59061406.log,-0.00990301,0.00234956,Santa Barbara,Santa Barbara (AQ)
+HG_LA_R2_mindpop0.5_fst.log,0.0333688,0.0549666,Haida Gwaii (Hi),LA (AQ)
+Fbragg_HG_R2_mindpop0.5_fst.log,0.0310208,0.050704,Fort Bragg,Haida Gwaii (Hi)
+fst.59061199.log,0.0171327,0.0323179,Winter Harbor (Hi),Central BC (Hi)
+fst.59061339.log,-0.0108099,0.00263995,Monterey,Santa Barbara
+FbraggA_Central_R2_mindpop0.5_fst.log,0.0157276,0.0344182,Fort Bragg (AQ),Central BC (Hi)
+fst.59061190.log,0.0131956,0.0307389,Central BC (Hi),Santa Barbara
+fst.59061341.log,-0.00244444,0.00300469,Monterey,San Diego (AQ)
+SD_BamfieldH_R2_mindpop0.5_fst.log,-0.0034322,0.0021867,San Diego (AQ),Bamfield (Hi)
+fst.59061366.log,0.000420416,0.00864482,Santa Barbara (AQ),Fort Bragg (AQ)
+fst.59061327.log,0.00364276,0.0137438,Fort Bragg (AQ),Ensenada
+SD_Monterey_R2_mindpop0.5_fst.log,-0.00244444,0.00300469,San Diego (AQ),Monterey
+Monterey_SD_R2_mindpop0.5_fst.log,-0.00244444,0.00300469,Monterey,San Diego (AQ)
+WH_SD_R2_mindpop0.5_fst.log,-0.00258847,0.00372419,Winter Harbor (Hi),San Diego (AQ)
+fst.59061196.log,0.0147876,0.0301517,Central BC (Hi),Ensenada
+fst.59061158.log,0.033624,0.0548408,Haida Gwaii (Hi),Hazard Canyon
+SB_FbraggA_R2_mindpop0.5_fst.log,0.00206952,0.0132899,Santa Barbara,Fort Bragg (AQ)
+fst.59061347.log,0.00110897,0.00558507,Hazard Canyon,Bamfield
+FbraggA_BamfieldH_R2_mindpop0.5_fst.log,0.00203833,0.0123966,Fort Bragg (AQ),Bamfield (Hi)
+fst.59061363.log,0.00513673,0.00893211,Santa Barbara (AQ),Bamfield
+WH_Bamfield_R2_mindpop0.5_fst.log,0.00172517,0.00513758,Winter Harbor (Hi),Bamfield
+Monterey_Central_R2_mindpop0.5_fst.log,0.0153985,0.0305431,Monterey,Central BC (Hi)
+SBA_Monterey_R2_mindpop0.5_fst.log,0.00336772,0.0054766,Santa Barbara (AQ),Monterey
+Ucluelet_SD_R2_mindpop0.5_fst.log,-0.00101402,0.00601113,Ucluelet,San Diego (AQ)
+BamfieldH_FbraggA_R2_mindpop0.5_fst.log,0.00203833,0.0123966,Bamfield (Hi),Fort Bragg (AQ)
+HG_Baja_R2_mindpop0.5_fst.log,0.0308552,0.0502898,Haida Gwaii (Hi),Ensenada
+FbraggA_Fbragg_R2_mindpop0.5_fst.log,0.00477332,0.0134832,Fort Bragg (AQ),Fort Bragg
+fst.59061197.log,0.0332474,0.0536146,Winter Harbor (Hi),Haida Gwaii (Hi)
+BamfieldH_Hazard_R2_mindpop0.5_fst.log,-0.00352643,0.00103364,Bamfield (Hi),Hazard Canyon
+fst.59061311.log,-0.00302883,0.00238327,Fort Bragg,San Diego (AQ)
+fst.59061477.log,-0.00196634,0.00406102,San Diego (AQ),Santa Barbara (AQ)
+Fbragg_Monterey_R2_mindpop0.5_fst.log,-0.000859172,1.67E-06,Fort Bragg,Monterey
+fst.59061396.log,-0.00641776,0.00156096,Santa Barbara,Bamfield (Hi)
+fst.59061244.log,0.00170102,0.00694485,Ucluelet,Santa Barbara (AQ)
+fst.59061301.log,0.000674085,0.00282377,Fort Bragg,Bamfield (Hi)
+Bamfield_Monterey_R2_mindpop0.5_fst.log,0.00292564,0.0053825,Bamfield,Monterey
+FbraggA_SD_R2_mindpop0.5_fst.log,0.00698499,0.0168398,Fort Bragg (AQ),San Diego (AQ)
+Central_Bamfield_R2_mindpop0.5_fst.log,0.0162005,0.0320468,Central BC (Hi),Bamfield
+Fbragg_FbraggA_R2_mindpop0.5_fst.log,0.00477332,0.0134832,Fort Bragg,Fort Bragg (AQ)
+FbraggA_SBA_R2_mindpop0.5_fst.log,0.000420416,0.00864482,Fort Bragg (AQ),Santa Barbara (AQ)
+fst.59061452.log,-0.00181913,0.00211178,LA (AQ),Hazard Canyon
+fst.59061458.log,-0.00174706,0.00399387,LA (AQ),San Diego (AQ)
+fst.59061237.log,0.000143262,0.00453399,Ucluelet,Fort Bragg
+fst.59061398.log,-0.0119849,0.00133599,Santa Barbara,Fort Bragg
+fst.59061271.log,0.00272145,0.00610859,Bamfield,Ensenada
+fst.59061382.log,-0.00196634,0.00406102,Santa Barbara (AQ),San Diego (AQ)
+SD_Ucluelet_R2_mindpop0.5_fst.log,-0.00101402,0.00601113,San Diego (AQ),Ucluelet
+fst.59061251.log,0.0340329,0.05555,Bamfield,Haida Gwaii (Hi)
+Baja_Fbragg_R2_mindpop0.5_fst.log,-0.00106382,0.00127545,Ensenada,Fort Bragg
+Ucluelet_Hazard_R2_mindpop0.5_fst.log,-0.000779952,0.00451364,Ucluelet,Hazard Canyon
+fst.59061352.log,-0.00274666,0.000882613,Hazard Canyon,Monterey
+Hazard_SD_R2_mindpop0.5_fst.log,-0.005326,0.000853971,Hazard Canyon,San Diego (AQ)
+fst.59061355.log,-0.0108194,2.84E-05,Hazard Canyon,Santa Barbara
+Bamfield_Baja_R2_mindpop0.5_fst.log,0.00272145,0.00610859,Bamfield,Ensenada
+fst.59061236.log,-0.00405901,2.99E-05,Ucluelet,Bamfield (Hi)
+fst.59061328.log,0.0314609,0.0511284,Monterey,Haida Gwaii (Hi)
+fst.59061357.log,-0.005326,0.000853971,Hazard Canyon,San Diego (AQ)
+Central_Ucluelet_R2_mindpop0.5_fst.log,0.015951,0.0313893,Central BC (Hi),Ucluelet
+Hazard_Monterey_R2_mindpop0.5_fst.log,-0.00274666,0.000882613,Hazard Canyon,Monterey
+Fbragg_LA_R2_mindpop0.5_fst.log,-0.000262107,0.00198289,Fort Bragg,LA (AQ)
+LA_SD_R2_mindpop0.5_fst.log,-0.00174706,0.00399387,LA (AQ),San Diego (AQ)
+fst.59061344.log,0.0156257,0.0304998,Hazard Canyon,Central BC (Hi)
+WH_HG_R2_mindpop0.5_fst.log,0.0332474,0.0536146,Winter Harbor (Hi),Haida Gwaii (Hi)
+fst.59061478.log,-0.00817797,0.000401438,San Diego (AQ),Santa Barbara
+Central_BamfieldH_R2_mindpop0.5_fst.log,0.0127231,0.028055,Central BC (Hi),Bamfield (Hi)
+SB_Fbragg_R2_mindpop0.5_fst.log,-0.0119849,0.00133599,Santa Barbara,Fort Bragg
+Central_Monterey_R2_mindpop0.5_fst.log,0.0153985,0.0305431,Central BC (Hi),Monterey
+Central_LA_R2_mindpop0.5_fst.log,0.0157712,0.0313865,Central BC (Hi),LA (AQ)
+Baja_SBA_R2_mindpop0.5_fst.log,-0.000454248,0.00326601,Ensenada,Santa Barbara (AQ)
+HG_Fbragg_R2_mindpop0.5_fst.log,0.0310208,0.050704,Haida Gwaii (Hi),Fort Bragg
+Bamfield_FbraggA_R2_mindpop0.5_fst.log,0.00683277,0.016956,Bamfield,Fort Bragg (AQ)
+fst.59061278.log,0.000177435,0.0024264,Bamfield (Hi),Bamfield
+fst.59061295.log,0.0310208,0.050704,Fort Bragg,Haida Gwaii (Hi)

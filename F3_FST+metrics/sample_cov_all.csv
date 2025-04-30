@@ -1,0 +1,250 @@
+﻿filename,av_cov,stdev,Group,Collection
+23442Pal_B10_S84_cov.txt,4.49065,7.09766,Bamfield,New
+23442Pal_B11_S85_cov.txt,4.5198,7.43003,Bamfield,New
+23442Pal_B12_S86_cov.txt,5.051,7.11861,Bamfield,New
+23442Pal_B13_S87_cov.txt,6.05688,10.2701,Bamfield,New
+23442Pal_B14_S88_cov.txt,5.42347,7.69042,Bamfield,New
+23442Pal_B15_S89_cov.txt,6.25897,12.3394,Bamfield,New
+23442Pal_B16_S90_cov.txt,5.72954,10.3574,Bamfield,New
+23442Pal_B17_S91_cov.txt,5.55895,8.71001,Bamfield,New
+23442Pal_B18_S92_cov.txt,6.15156,10.1304,Bamfield,New
+23442Pal_B19_S93_cov.txt,5.38894,7.97203,Bamfield,New
+23442Pal_B1_S76_cov.txt,7.38218,13.3511,Bamfield,New
+23442Pal_B20_S94_cov.txt,6.53609,11.3384,Bamfield,New
+23442Pal_B21_S95_cov.txt,4.67169,9.89811,Bamfield,New
+23442Pal_B22_S96_cov.txt,4.8142,10.5886,Bamfield,New
+23442Pal_B2_S77_cov.txt,5.17265,8.24621,Bamfield,New
+23442Pal_B3_S78_cov.txt,5.33667,10.3644,Bamfield,New
+23442Pal_B5_S79_cov.txt,4.74757,7.6382,Bamfield,New
+23442Pal_B6_S80_cov.txt,3.98757,7.32616,Bamfield,New
+23442Pal_B7_S81_cov.txt,2.58504,7.75922,Bamfield,New
+23442Pal_B8_S82_cov.txt,4.29462,7.43975,Bamfield,New
+23442Pal_B9_S83_cov.txt,3.97447,6.29447,Bamfield,New
+23442Pal_C10_S169_cov.txt,3.85064,7.45309,Central BC (Hi),Historic
+23442Pal_C1_S160_cov.txt,2.89264,5.97365,Central BC (Hi),Historic
+23442Pal_C2_S161_cov.txt,3.12643,5.04676,Central BC (Hi),Historic
+23442Pal_C3_S162_cov.txt,3.09162,5.02314,Central BC (Hi),Historic
+23442Pal_C4_S163_cov.txt,3.10929,5.14032,Central BC (Hi),Historic
+23442Pal_C5_S164_cov.txt,3.27681,5.42879,Central BC (Hi),Historic
+23442Pal_C6_S165_cov.txt,3.47509,6.22382,Central BC (Hi),Historic
+23442Pal_C7_S166_cov.txt,4.24831,7.55555,Central BC (Hi),Historic
+23442Pal_C8_S167_cov.txt,3.76932,6.20767,Central BC (Hi),Historic
+23442Pal_C9_S168_cov.txt,3.97008,7.40074,Central BC (Hi),Historic
+23442Pal_EB1_S183_cov.txt,6.72394,11.3355,Santa Barbara,New
+23442Pal_F10_S57_cov.txt,6.39865,10.4484,Fort Bragg,New
+23442Pal_F11_S58_cov.txt,9.05927,19.8733,Fort Bragg,New
+23442Pal_F12_S59_cov.txt,5.19851,7.84504,Fort Bragg,New
+23442Pal_F13_S60_cov.txt,5.60936,9.88619,Fort Bragg,New
+23442Pal_F14_S61_cov.txt,6.46882,12.7981,Fort Bragg,New
+23442Pal_F15_S62_cov.txt,6.14529,8.82279,Fort Bragg,New
+23442Pal_F16_S63_cov.txt,5.42252,9.19439,Fort Bragg,New
+23442Pal_F17_S64_cov.txt,5.47929,8.18219,Fort Bragg,New
+23442Pal_F18_S65_cov.txt,4.74581,6.36637,Fort Bragg,New
+23442Pal_F19_S66_cov.txt,4.8695,7.98968,Fort Bragg,New
+23442Pal_F1_S49_cov.txt,4.27166,6.47992,Fort Bragg,New
+23442Pal_F20_S67_cov.txt,4.58536,6.9389,Fort Bragg,New
+23442Pal_F21_S68_cov.txt,4.54732,7.22176,Fort Bragg,New
+23442Pal_F22_S69_cov.txt,4.9535,9.19871,Fort Bragg,New
+23442Pal_F23_S70_cov.txt,4.56394,6.42666,Fort Bragg,New
+23442Pal_F24_S71_cov.txt,4.99681,7.25837,Fort Bragg,New
+23442Pal_F25_S72_cov.txt,6.13403,10.3087,Fort Bragg,New
+23442Pal_F26_S73_cov.txt,5.33385,6.96024,Fort Bragg,New
+23442Pal_F27_S74_cov.txt,5.09807,7.06364,Fort Bragg,New
+23442Pal_F28_S75_cov.txt,6.02774,8.14143,Fort Bragg,New
+23442Pal_F2_S50_cov.txt,5.05997,8.10287,Fort Bragg,New
+23442Pal_F4_S51_cov.txt,4.60154,6.52582,Fort Bragg,New
+23442Pal_F5_S52_cov.txt,7.33534,16.7145,Fort Bragg,New
+23442Pal_F6_S53_cov.txt,4.69204,8.04787,Fort Bragg,New
+23442Pal_F7_S54_cov.txt,5.3777,10.3204,Fort Bragg,New
+23442Pal_F8_S55_cov.txt,5.78891,7.96823,Fort Bragg,New
+23442Pal_F9_S56_cov.txt,5.26075,9.61284,Fort Bragg,New
+23442Pal_G10_S157_cov.txt,8.74041,12.2982,Haida Gwaii (Hi),Historic
+23442Pal_G11_S158_cov.txt,4.36555,5.52149,Haida Gwaii (Hi),Historic
+23442Pal_G12_S159_cov.txt,5.93188,9.02524,Haida Gwaii (Hi),Historic
+23442Pal_G1_S150_cov.txt,6.59814,11.7012,Haida Gwaii (Hi),Historic
+23442Pal_G2_S151_cov.txt,5.86003,10.4849,Haida Gwaii (Hi),Historic
+23442Pal_G3_S152_cov.txt,5.68367,7.47657,Haida Gwaii (Hi),Historic
+23442Pal_G5_S153_cov.txt,6.33921,19.5723,Haida Gwaii (Hi),Historic
+23442Pal_G7_S154_cov.txt,5.29369,6.44568,Haida Gwaii (Hi),Historic
+23442Pal_G8_S155_cov.txt,4.85721,6.06814,Haida Gwaii (Hi),Historic
+23442Pal_G9_S156_cov.txt,4.29212,5.48977,Haida Gwaii (Hi),Historic
+23442Pal_H10_S9_cov.txt,5.13838,11.6156,Hazard Canyon,New
+23442Pal_H11_S10_cov.txt,5.6322,11.5132,Hazard Canyon,New
+23442Pal_H1_S1_cov.txt,5.01686,10.2461,Hazard Canyon,New
+23442Pal_H2_S2_cov.txt,5.30693,9.02624,Hazard Canyon,New
+23442Pal_H3_S3_cov.txt,7.23811,13.6379,Hazard Canyon,New
+23442Pal_H4_S4_cov.txt,6.53357,11.2218,Hazard Canyon,New
+23442Pal_H5_S5_cov.txt,4.10383,7.81259,Hazard Canyon,New
+23442Pal_H6_S6_cov.txt,4.64034,8.84088,Hazard Canyon,New
+23442Pal_H7_S7_cov.txt,4.04618,7.29593,Hazard Canyon,New
+23442Pal_H8_S8_cov.txt,5.35396,9.28072,Hazard Canyon,New
+23442Pal_L10_S144_cov.txt,6.44704,20.3638,LA (AQ),Aquarium
+23442Pal_L11_S145_cov.txt,4.96311,11.5309,LA (AQ),Aquarium
+23442Pal_L12_S146_cov.txt,8.01168,21.2794,LA (AQ),Aquarium
+23442Pal_L13_S147_cov.txt,8.0682,23.0236,LA (AQ),Aquarium
+23442Pal_L14_S148_cov.txt,7.0929,14.8842,LA (AQ),Aquarium
+23442Pal_L15_S149_cov.txt,4.75884,13.4761,LA (AQ),Aquarium
+23442Pal_L1_S135_cov.txt,5.89809,21.3528,LA (AQ),Aquarium
+23442Pal_L2_S136_cov.txt,7.69633,21.8251,LA (AQ),Aquarium
+23442Pal_L3_S137_cov.txt,8.02672,29.2088,LA (AQ),Aquarium
+23442Pal_L4_S138_cov.txt,8.33179,28.2505,LA (AQ),Aquarium
+23442Pal_L5_S139_cov.txt,9.84464,35.0039,LA (AQ),Aquarium
+23442Pal_L6_S140_cov.txt,7.70879,22.6351,LA (AQ),Aquarium
+23442Pal_L7_S141_cov.txt,7.36305,28.3947,LA (AQ),Aquarium
+23442Pal_L8_S142_cov.txt,7.31004,21.9029,LA (AQ),Aquarium
+23442Pal_L9_S143_cov.txt,6.92039,22.4759,LA (AQ),Aquarium
+23442Pal_M10_S30_cov.txt,6.37194,8.41851,Monterey,New
+23442Pal_M11_S31_cov.txt,5.56715,10.6552,Monterey,New
+23442Pal_M12_S32_cov.txt,6.08888,9.57621,Monterey,New
+23442Pal_M13_S33_cov.txt,4.72466,6.58841,Monterey,New
+23442Pal_M14_S34_cov.txt,4.099,5.83177,Monterey,New
+23442Pal_M15_S35_cov.txt,3.80731,5.1871,Monterey,New
+23442Pal_M16_S36_cov.txt,5.47019,8.36402,Monterey,New
+23442Pal_M17_S37_cov.txt,4.1594,6.26325,Monterey,New
+23442Pal_M18_S38_cov.txt,4.84388,7.20992,Monterey,New
+23442Pal_M19_S39_cov.txt,5.45332,7.73183,Monterey,New
+23442Pal_M20_S40_cov.txt,5.64568,8.42052,Monterey,New
+23442Pal_M21_S41_cov.txt,6.23389,10.585,Monterey,New
+23442Pal_M22_S42_cov.txt,6.4074,9.15108,Monterey,New
+23442Pal_M23_S43_cov.txt,9.18661,15.0093,Monterey,New
+23442Pal_M24_S44_cov.txt,6.4865,11.3984,Monterey,New
+23442Pal_M25_S45_cov.txt,8.51624,12.7301,Monterey,New
+23442Pal_M26_S46_cov.txt,5.96279,7.64148,Monterey,New
+23442Pal_M27_S47_cov.txt,4.82188,6.24129,Monterey,New
+23442Pal_M28_S48_cov.txt,4.80945,6.49185,Monterey,New
+23442Pal_M2_S22_cov.txt,4.28451,6.28823,Monterey,New
+23442Pal_M3_S23_cov.txt,5.44257,7.54588,Monterey,New
+23442Pal_M4_S24_cov.txt,5.53488,7.66309,Monterey,New
+23442Pal_M5_S25_cov.txt,4.42715,5.91229,Monterey,New
+23442Pal_M6_S26_cov.txt,6.08437,8.55912,Monterey,New
+23442Pal_M7_S27_cov.txt,5.67604,8.45184,Monterey,New
+23442Pal_M8_S28_cov.txt,4.84105,6.81059,Monterey,New
+23442Pal_M9_S29_cov.txt,6.86552,11.3966,Monterey,New
+23442Pal_N10_S119_cov.txt,3.64757,16.5307,Fort Bragg (AQ),Aquarium
+23442Pal_N1_S110_cov.txt,4.30198,19.666,Fort Bragg (AQ),Aquarium
+23442Pal_N2_S111_cov.txt,3.78758,15.3585,Fort Bragg (AQ),Aquarium
+23442Pal_N3_S112_cov.txt,3.72227,17.1004,Fort Bragg (AQ),Aquarium
+23442Pal_N4_S113_cov.txt,3.93755,14.4585,Fort Bragg (AQ),Aquarium
+23442Pal_N5_S114_cov.txt,4.78746,22.6062,Fort Bragg (AQ),Aquarium
+23442Pal_N6_S115_cov.txt,6.22336,37.9237,Fort Bragg (AQ),Aquarium
+23442Pal_N7_S116_cov.txt,6.03192,34.0835,Fort Bragg (AQ),Aquarium
+23442Pal_N8_S117_cov.txt,8.61818,56.2102,Fort Bragg (AQ),Aquarium
+23442Pal_N9_S118_cov.txt,8.59838,57.0073,Fort Bragg (AQ),Aquarium
+23442Pal_S10_S129_cov.txt,5.00361,7.90531,Santa Barbara (AQ),Aquarium
+23442Pal_S11_S130_cov.txt,4.79894,8.93308,Santa Barbara (AQ),Aquarium
+23442Pal_S12_S131_cov.txt,5.93643,8.48618,Santa Barbara (AQ),Aquarium
+23442Pal_S13_S132_cov.txt,5.62381,9.72473,Santa Barbara (AQ),Aquarium
+23442Pal_S14_S133_cov.txt,4.33785,7.09804,Santa Barbara (AQ),Aquarium
+23442Pal_S15_S134_cov.txt,6.89564,11.9046,Santa Barbara (AQ),Aquarium
+23442Pal_S1_S120_cov.txt,3.03829,6.55527,Santa Barbara (AQ),Aquarium
+23442Pal_S2_S121_cov.txt,6.69312,10.8162,Santa Barbara (AQ),Aquarium
+23442Pal_S3_S122_cov.txt,3.2413,6.05026,Santa Barbara (AQ),Aquarium
+23442Pal_S4_S123_cov.txt,2.55738,4.31001,Santa Barbara (AQ),Aquarium
+23442Pal_S5_S124_cov.txt,3.7113,8.12485,Santa Barbara (AQ),Aquarium
+23442Pal_S6_S125_cov.txt,4.50102,7.35145,Santa Barbara (AQ),Aquarium
+23442Pal_S7_S126_cov.txt,4.47651,7.04131,Santa Barbara (AQ),Aquarium
+23442Pal_S8_S127_cov.txt,4.02441,6.67508,Santa Barbara (AQ),Aquarium
+23442Pal_S9_S128_cov.txt,3.93926,6.3232,Santa Barbara (AQ),Aquarium
+23442Pal_SB-10_S19_cov.txt,4.44969,7.66022,Santa Barbara,New
+23442Pal_SB-11_S20_cov.txt,5.83593,10.4704,Santa Barbara,New
+23442Pal_SB-12_S21_cov.txt,4.77629,8.73883,Santa Barbara,New
+23442Pal_SB-1_S11_cov.txt,2.78024,6.4515,Santa Barbara,New
+23442Pal_SB-2_S12_cov.txt,5.93878,9.52525,Santa Barbara,New
+23442Pal_SB-3_S13_cov.txt,1.92462,11.432,Santa Barbara,New
+23442Pal_SB-5_S14_cov.txt,6.35811,11.3953,Santa Barbara,New
+23442Pal_SB-6_S15_cov.txt,7.55134,13.6426,Santa Barbara,New
+23442Pal_SB-7_S16_cov.txt,4.75221,7.83843,Santa Barbara,New
+23442Pal_SB-8_S17_cov.txt,4.85856,7.6525,Santa Barbara,New
+23442Pal_SB-9_S18_cov.txt,5.32302,10.499,Santa Barbara,New
+23442Pal_T1_S182_cov.txt,4.10234,9.8278,Fort Bragg (Hi),Historic
+23442Pal_T2_S184_cov.txt,5.09028,19.1794,Fort Bragg (Hi),Historic
+23442Pal_T3_S185_cov.txt,5.34463,13.5056,Fort Bragg (Hi),Historic
+23442Pal_U10_S106_cov.txt,7.39637,13.7652,Ucluelet,New
+23442Pal_U11_S107_cov.txt,5.3757,12.8293,Ucluelet,New
+23442Pal_U1_S97_cov.txt,2.88713,7.76862,Ucluelet,New
+23442Pal_U2_S98_cov.txt,5.21154,11.7522,Ucluelet,New
+23442Pal_U3_S99_cov.txt,4.86352,9.91272,Ucluelet,New
+23442Pal_U4_S100_cov.txt,3.04233,7.07015,Ucluelet,New
+23442Pal_U5_S101_cov.txt,5.24485,11.7965,Ucluelet,New
+23442Pal_U6_S102_cov.txt,5.72286,10.0062,Ucluelet,New
+23442Pal_U7_S103_cov.txt,4.61261,8.03072,Ucluelet,New
+23442Pal_U8_S104_cov.txt,4.92028,9.36403,Ucluelet,New
+23442Pal_U9_S105_cov.txt,5.8141,11.9123,Ucluelet,New
+23442Pal_W10_S179_cov.txt,5.01398,7.86961,Winter Harbor (Hi),Historic
+23442Pal_W11_S180_cov.txt,5.73831,16.3441,Winter Harbor (Hi),Historic
+23442Pal_W12_S181_cov.txt,6.69347,16.5272,Winter Harbor (Hi),Historic
+23442Pal_W1_S170_cov.txt,7.23208,11.7182,Winter Harbor (Hi),Historic
+23442Pal_W2_S171_cov.txt,7.31663,9.83764,Winter Harbor (Hi),Historic
+23442Pal_W3_S172_cov.txt,4.74397,5.42166,Winter Harbor (Hi),Historic
+23442Pal_W4_S173_cov.txt,4.63168,6.16069,Winter Harbor (Hi),Historic
+23442Pal_W5_S174_cov.txt,4.46376,6.65414,Winter Harbor (Hi),Historic
+23442Pal_W6_S175_cov.txt,6.24347,8.6372,Winter Harbor (Hi),Historic
+23442Pal_W7_S176_cov.txt,4.80822,6.59761,Winter Harbor (Hi),Historic
+23442Pal_W8_S177_cov.txt,6.40229,7.74755,Winter Harbor (Hi),Historic
+23442Pal_W9_S178_cov.txt,8.07752,12.3448,Winter Harbor (Hi),Historic
+24145Pal_AP13_S19_lc_shortcov.txt,2.72961,5.52104,Bamfield (Hi),Historic
+24145Pal_AP15_S20_lc_shortcov.txt,4.53684,8.53349,Bamfield (Hi),Historic
+24145Pal_AP19_S21_lc_shortcov.txt,3.80347,5.41829,Bamfield (Hi),Historic
+24145Pal_AP2_S14_lc_shortcov.txt,5.53963,13.9751,Bamfield (Hi),Historic
+24145Pal_AP23_S22_lc_shortcov.txt,4.53742,7.07689,Bamfield (Hi),Historic
+24145Pal_AP24_S23_lc_shortcov.txt,3.92062,5.86245,Bamfield (Hi),Historic
+24145Pal_AP3_S15_lc_shortcov.txt,4.50279,6.95351,Bamfield (Hi),Historic
+24145Pal_AP4_S16_lc_shortcov.txt,4.2275,5.70677,Bamfield (Hi),Historic
+24145Pal_AP5_S17_lc_shortcov.txt,4.25569,6.18763,Bamfield (Hi),Historic
+24145Pal_AP9_S18_lc_shortcov.txt,6.00827,8.2178,Bamfield (Hi),Historic
+24145Pal_B12_S7_lc_shortcov.txt,3.19589,4.34535,Bamfield,New
+24145Pal_B19_S8_lc_shortcov.txt,3.60479,3.92038,Bamfield,New
+24145Pal_B2_S6_lc_shortcov.txt,3.36892,4.59947,Bamfield,New
+24145Pal_Ba10_S56_lc_shortcov.txt,4.32591,4.80937,Ensenada,New
+24145Pal_Ba11_S57_lc_shortcov.txt,4.08045,5.09342,Ensenada,New
+24145Pal_Ba13_S58_lc_shortcov.txt,4.46912,5.77069,Ensenada,New
+24145Pal_Ba14_S59_lc_shortcov.txt,5.05405,8.94607,Ensenada,New
+24145Pal_Ba15_S60_lc_shortcov.txt,4.74317,8.15032,Ensenada,New
+24145Pal_Ba16_S61_lc_shortcov.txt,4.59421,10.5663,Ensenada,New
+24145Pal_Ba17_S62_lc_shortcov.txt,4.81844,7.58799,Ensenada,New
+24145Pal_Ba18_S63_lc_shortcov.txt,5.14973,7.97147,Ensenada,New
+24145Pal_Ba19_S64_lc_shortcov.txt,4.40878,6.43871,Ensenada,New
+24145Pal_Ba21_S65_lc_shortcov.txt,3.81463,5.24045,Ensenada,New
+24145Pal_Ba23_S66_lc_shortcov.txt,5.07537,7.54951,Ensenada,New
+24145Pal_Ba3_S52_lc_shortcov.txt,3.65664,8.13283,Ensenada,New
+24145Pal_Ba7_S53_lc_shortcov.txt,3.72558,7.70182,Ensenada,New
+24145Pal_Ba8_S54_lc_shortcov.txt,3.00216,3.78752,Ensenada,New
+24145Pal_Ba9_S55_lc_shortcov.txt,5.8417,7.71725,Ensenada,New
+24145Pal_D2_S10_lc_shortcov.txt,4.15314,7.63837,San Diego (Hi),Historic
+24145Pal_D3_S11_lc_shortcov.txt,3.6652,5.73019,San Diego (Hi),Historic
+24145Pal_D4_S12_lc_shortcov.txt,5.62266,11.3803,San Diego (Hi),Historic
+24145Pal_D5_S13_lc_shortcov.txt,4.36691,7.6043,San Diego (Hi),Historic
+24145Pal_Female1_S47_lc_shortcov.txt,4.33109,8.35025,Monterey Female,New
+24145Pal_Female2_S48_lc_shortcov.txt,4.9605,7.74297,Monterey Female,New
+24145Pal_Female4_S49_lc_shortcov.txt,3.70673,6.11703,Monterey Female,New
+24145Pal_Female5_S50_lc_shortcov.txt,4.67934,10.2975,Monterey Female,New
+24145Pal_Female8_S51_lc_shortcov.txt,4.4674,10.7288,Monterey Female,New
+24145Pal_Male1_S42_lc_shortcov.txt,5.0548,12.862,Monterey Male,New
+24145Pal_Male2_S43_lc_shortcov.txt,6.71013,14.7866,Monterey Male,New
+24145Pal_Male3_S44_lc_shortcov.txt,4.58829,7.50675,Monterey Male,New
+24145Pal_Male4_S45_lc_shortcov.txt,5.89565,14.0247,Monterey Male,New
+24145Pal_Male7_S46_lc_shortcov.txt,4.87156,10.0636,Monterey Male,New
+24145Pal_S10_S25_lc_shortcov.txt,4.41192,8.4599,Bamfield (Hi),Historic
+24145Pal_S11_S26_lc_shortcov.txt,4.52989,5.341,Bamfield (Hi),Historic
+24145Pal_S12_S27_lc_shortcov.txt,3.98549,7.43751,Bamfield (Hi),Historic
+24145Pal_S13_S28_lc_shortcov.txt,3.69029,5.13487,Bamfield (Hi),Historic
+24145Pal_S14_S29_lc_shortcov.txt,3.64192,6.09729,Bamfield (Hi),Historic
+24145Pal_S15_S30_lc_shortcov.txt,4.03905,5.84379,Bamfield (Hi),Historic
+24145Pal_S16_S31_lc_shortcov.txt,4.72354,7.28968,Bamfield (Hi),Historic
+24145Pal_S17_S32_lc_shortcov.txt,3.92399,5.80927,Bamfield (Hi),Historic
+24145Pal_S34_S33_lc_shortcov.txt,4.24885,9.48999,Bamfield (Hi),Historic
+24145Pal_S7_S24_lc_shortcov.txt,4.26365,5.43376,Bamfield (Hi),Historic
+24145Pal_SB-10_S5_lc_shortcov.txt,3.72252,5.67323,Santa Barbara,New
+24145Pal_SB-2_S1_lc_shortcov.txt,3.48865,4.6057,Santa Barbara,New
+24145Pal_SB-5_S2_lc_shortcov.txt,3.83214,5.40408,Santa Barbara,New
+24145Pal_SB-6_S3_lc_shortcov.txt,3.54735,5.44472,Santa Barbara,New
+24145Pal_SB-8_S4_lc_shortcov.txt,3.28975,4.56161,Santa Barbara,New
+24145Pal_SD1_S34_lc_shortcov.txt,7.03397,7.25944,San Diego (AQ),Aquarium
+24145Pal_SD10_S41_lc_shortcov.txt,3.55192,3.83443,San Diego (AQ),Aquarium
+24145Pal_SD2_S35_lc_shortcov.txt,3.99461,4.67124,San Diego (AQ),Aquarium
+24145Pal_SD3_S36_lc_shortcov.txt,4.326,7.46791,San Diego (AQ),Aquarium
+24145Pal_SD5_S37_lc_shortcov.txt,3.95456,8.92271,San Diego (AQ),Aquarium
+24145Pal_SD7_S38_lc_shortcov.txt,5.2293,7.73857,San Diego (AQ),Aquarium
+24145Pal_SD8_S39_lc_shortcov.txt,3.92222,4.37117,San Diego (AQ),Aquarium
+24145Pal_SD9_S40_lc_shortcov.txt,4.35825,7.467,San Diego (AQ),Aquarium
+24145Pal_T15_S9_lc_shortcov.txt,5.60947,9.74163,Fort Bragg (Hi),Historic

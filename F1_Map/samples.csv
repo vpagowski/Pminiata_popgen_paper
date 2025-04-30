@@ -1,0 +1,18 @@
+﻿Location,lat,long,Collection,Number,Round,
+Bamfield,48.89,-125.11,New,22,1,
+Central BC,51.88,-127.98,Historic,10,1,
+Fort Bragg,39.43,-123.81,New,28,1,
+Haida Gwaii,52.96,-132.43,Historic,12,1,
+Hazard Canyon,35.29,-120.88,New,11,1,
+LA,33.74,-118.41,Aquarium,15,1,
+Monterey,36.63,-121.94,New,28,1,
+Santa Barbara,34.42,-119.64,New,12,1,
+Ucluelet,49,-126,New,11,1,move up latitude so you can see
+Winter Harbor,50.46,-128.07,Historic,12,1,
+Fort Bragg,39.43,-123.81,Aquarium,10,1,
+Fort Bragg,39.43,-123.81,Historic,4,1,
+Santa Barbara,34.42,-119.64,Aquarium,18,1,actually 15 but can't see
+Ensenada,31.701,-116.684,New,16,2,
+Bamfield,48.89,-125.11,Historic,14,2,actually 20 but can't see - this layers lines
+San Diego,32.86,-117.256,Aquarium,8,2,
+San Diego,32.86,-117.256,Historic,4,2,
