@@ -30,7 +30,6 @@
 ./bam_bais/ngm_dtas_rg_23442Pal_C7_S166.bam,Central BC,Historic,S29
 ./bam_bais/ngm_dtas_rg_23442Pal_C8_S167.bam,Central BC,Historic,S30
 ./bam_bais/ngm_dtas_rg_23442Pal_C9_S168.bam,Central BC,Historic,S31
-./bam_bais/ngm_dtas_rg_23442Pal_EB1_S183.bam,Santa Barbara,Historic,S32
 ./bam_bais/ngm_dtas_rg_23442Pal_F10_S57.bam,Fort Bragg,New,S33
 ./bam_bais/ngm_dtas_rg_23442Pal_F11_S58.bam,Fort Bragg,New,S34
 ./bam_bais/ngm_dtas_rg_23442Pal_F12_S59.bam,Fort Bragg,New,S35
@@ -130,8 +129,6 @@
 ./bam_bais/ngm_dtas_rg_23442Pal_N7_S116.bam,Fort Bragg,Aquarium,S129
 ./bam_bais/ngm_dtas_rg_23442Pal_N8_S117.bam,Fort Bragg,Aquarium,S130
 ./bam_bais/ngm_dtas_rg_23442Pal_N9_S118.bam,Fort Bragg,Aquarium,S131
-./bam_bais/ngm_dtas_rg_23442Pal_P1_S108.bam,Pigeon,New,S132
-./bam_bais/ngm_dtas_rg_23442Pal_P2_S109.bam,Pigeon,New,S133
 ./bam_bais/ngm_dtas_rg_23442Pal_S10_S129.bam,Santa Barbara,Aquarium,S134
 ./bam_bais/ngm_dtas_rg_23442Pal_S11_S130.bam,Santa Barbara,Aquarium,S135
 ./bam_bais/ngm_dtas_rg_23442Pal_S12_S131.bam,Santa Barbara,Aquarium,S136
@@ -249,4 +246,3 @@ ngm_dtas_rg_24145Pal_SD5_S37.bam,San Diego,Aquarium,S247
 ngm_dtas_rg_24145Pal_SD7_S38.bam,San Diego,Aquarium,S248
 ngm_dtas_rg_24145Pal_SD8_S39.bam,San Diego,Aquarium,S249
 ngm_dtas_rg_24145Pal_SD9_S40.bam,San Diego,Aquarium,S250
-ngm_dtas_rg_24145Pal_T15_S9.bam,Fort Bragg,Historic,S251

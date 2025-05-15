@@ -2,21 +2,17 @@ library(ggplot2)
 library(ggrepel)
 library(dplyr)
 library(ggpubr)
+library(psych)
 
 #Load in files
 setwd("/Users/veronicapagowski/Desktop/MOLECOL/F2_PCA")
-#Min ind 50%, pruning, all individuals excluding re sequenced individuals
-C <- read.table("Pmin_lc_geno_e6_maf0.05_OGsiteprune_R1+R2_minind117.beagle.gz_pca.cov") 
+#Min ind 50%, pruning, all individuals excluding re sequenced individuals, n = at least 4
+C <- read.table("Pmin_lc_geno_e6_maf0.05_OGsiteprune_R1+R2_minind117.beagle.gz_pca_clean.cov") 
 
 #Match up to fam file and assign colors
 final_fam<-read.csv(file="old_new_bams_rmreseq2.csv")
 custom_order<-c("Haida Gwaii","Central BC","Winter Harbor","Ucluelet","Bamfield","Fort Bragg","Monterey","Hazard Canyon","Santa Barbara","LA","San Diego","Ensenada","Monterey Male","Monterey Female")  
 cols <- c("deeppink4","burlywood3","lightsalmon","hotpink2","darkorange","lightgoldenrod2","olivedrab3","mediumseagreen","dodgerblue","lightskyblue1","plum","blueviolet","blue1","deeppink")
-
-#Remove samples with very small n (1-2 per population)
-rows_cols_to_remove <- c(129:130,233)
-C <- C[-rows_cols_to_remove, -rows_cols_to_remove]
-final_fam <- final_fam[-c(129:130,233), ]
 
 #Do NMDS
 d<-cor2dist(C)
@@ -58,8 +54,8 @@ fig1a <- fig1a +
 
 print(fig1a)   
 ###Figure 1b: Look at same covariance matrix - remove Haida Gwaii,Central BC and Bamfield outliers
-C2 <- read.table("Pmin_lc_geno_e6_maf0.05_OGsiteprune_R1+R2_minind117.beagle.gz_pca.cov") 
-rows_cols_to_remove <- c(3,9,13,15,7,19:29,57:66,129:130,233)
+C2 <- read.table("Pmin_lc_geno_e6_maf0.05_OGsiteprune_R1+R2_minind117.beagle.gz_pca_clean.cov") 
+rows_cols_to_remove <- c(3,9,13,15,7,19:29,57:66)
 C2<- C2[-rows_cols_to_remove, -rows_cols_to_remove]
 #Match up to fam file and assign colors
 final_fam2<-read.csv(file="old_new_bams_rmreseq3.csv")
@@ -91,7 +87,7 @@ fig1b <- ggplot(mds_small2, aes(x = Dim.1, y = Dim.2, color = group, shape= Coll
   theme_bw()
 
 #Plot the covariance matrix generated from removing scaffolds 64/65 - sex differences removed
-C3 <- read.table("Pmin_lc_geno_e6_maf0.05_OGsiteprune_R1+R2_minind117.beagle.gz_no645_pca.cov") 
+C3 <- read.table("Pmin_lc_geno_e6_maf0.05_OGsiteprune_R1+R2_minind117.beagle.gz_no645_pca_clean.cov") 
 C3<- C3[-rows_cols_to_remove, -rows_cols_to_remove]
 
 #Do NMDS
@@ -119,14 +115,14 @@ fig1c <- ggplot(mds_sex2, aes(x = Dim.1, y = Dim.2, color = group, shape= Collec
   theme_bw()
 
 #Plot the covariance matrix generated with sexed individuals - minind filter is 10 (not 117)
-C4 <- read.table("Pmin_lc_genolike3_R1+R2_maf0.05.covMat") 
-sample_id<-read.csv(file="Sample_list_251.csv")
-#Remove resequences samples and Haida Gwaii, Central BC, Outlier Bamfied
+C4 <- read.table("Pmin_lc_genolike3_R1+R2_maf0.05_clean.covMat") 
+sample_id<-read.csv(file="Sample_list_all.csv")
+#Remove resequencesamples and Haida Gwaii, Central BC, Outlier Bamfied
 #These make it difficult to see PC2 variation where you can see sex differences
-rows_cols_to_remove <- c(1:31, 60:69,95:122,132,133,149,153,155,156,158,196:198,233)
+rows_cols_to_remove <- c(1:31,59:68,94:120,146,150,152,153,155,193:195,230)
 C4 <- C4[-rows_cols_to_remove, -rows_cols_to_remove]
 #We will also add a column with population assingments
-sample_id <- sample_id[-c(1:31, 60:69,95:122,132,133,149,153,155,156,158,196:198,233), ]
+sample_id <- sample_id[-c(1:31,59:68,94:120,146,150,152,153,155,193:195,230), ]
 
 #add male and female colors
 custom_order3<-c("Winter Harbor","Ucluelet","Bamfield","Fort Bragg","Monterey Male","Monterey Female","Hazard Canyon","Santa Barbara","LA","San Diego","Ensenada")  
