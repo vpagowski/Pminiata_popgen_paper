@@ -1,0 +1,198 @@
+---
+title: "Zoom in on Sweep Plots"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+setwd("/Users/veronicapagowski/Desktop/MOLECOL/F5_Sweep")
+regions <- read.csv("significant_seqs_blast.csv", header=TRUE) #look at blast results
+regions2 <- read.csv("sweep_reg.csv", header=TRUE) # look at gff file annotations
+```
+
+```{r population, include=FALSE}
+#choose population to visualize the SC 72 sweep, here let's look at Bamfield (Hi), as it has one of the largest sweeps
+sweeps1<-read.table("SC072_BamfieldH_rev2_mindpop0.5.in.out", header=TRUE)
+sweeps1$Pop <- "BamfieldH"
+```
+
+```{r SC72 sweep blast, include=TRUE,warning=FALSE}
+#Plot of SC 72
+psw1 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(20000000, 20525200)) + #manually adjusted to view peak
+  scale_y_continuous(limits = c(0, 800), expand=c(0,0)) +
+  theme_bw() +
+  theme(legend.position = "right") +
+  theme(axis.text.x = element_blank())+
+  labs(y = "", x = "") +
+  theme(
+    legend.position = "right",
+    axis.text.x = element_blank(),
+    axis.text.y = element_text(size = 12),  
+    axis.title.x = element_text(size = 17), 
+    axis.title.y = element_text(size = 17)  
+  ) +
+  geom_rect(data = regions, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 800), 
+            inherit.aes = FALSE,  
+            fill = "#08306B", alpha = 0.3)+
+  geom_text(data = regions, 
+            aes(x = (start + end) / 2, y = 400, label = annot), 
+            inherit.aes = FALSE, 
+            size = 2, color = "black", angle = 90)+
+  geom_vline(xintercept = 20507619, color = "black", linetype = "dashed", size = 0.5) #location from SFS analysis
+psw1
+jpeg_filename <-  ("Figure5b.jpg")
+ggsave(jpeg_filename, plot = psw1, width = 1620/300, height =780/300, dpi = 300, units = "in", bg="transparent")
+```
+
+```{r SC72 sweep gff, include=TRUE,warning=FALSE}
+library(scales)
+#Plot of SC 72
+psw1_a <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(20450000, 20525200)) + #manually adjusted to view peak
+  scale_y_continuous(limits = c(0, 800), expand=c(0,0)) +
+  theme_bw() +
+  theme(legend.position = "right") +
+  theme(axis.text.x = element_blank())+
+  labs(y = "", x = "") +
+  theme(
+    legend.position = "right",
+    axis.text.x = element_blank(),
+    axis.text.y = element_text(size = 12),  
+    axis.title.x = element_text(size = 17), 
+    axis.title.y = element_text(size = 17)  
+  ) +
+  geom_rect(data = regions2, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 800), 
+            inherit.aes = FALSE,  
+            fill = "#08306B", alpha = 0.3)+
+  geom_text(data = regions2, 
+            aes(x = (start + end) / 2, y = 400, label = annot), 
+            inherit.aes = FALSE, 
+            size = 2, color = "black", angle = 90)+
+  geom_vline(xintercept = 20507619, color = "black", linetype = "dashed", size = 0.5) #location from SFS analysis
+psw1_a
+jpeg_filename <-  ("Figure5a.jpg")
+ggsave(jpeg_filename, plot = psw1_a, width = 810/300, height =780/300, dpi = 300, units = "in", bg="transparent")
+```
+
+```{r comments, include=FALSE}
+#The following plots are not included in main figures, but can be run for different populations if you'd like to look at specific sweeps and the genes that are found there based on blast results. 
+```
+
+```{r SC53 sweep, include=TRUE}
+#Plot of SC 53
+psw2 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="cadetblue") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(1700000, 1850000)) +
+  scale_y_continuous(limits = c(0, 600)) +
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 2.7, vjust = 2, size = 4,
+           color="black") +
+  theme_bw() +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position") +
+  geom_rect(data = regions, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 600), 
+            inherit.aes = FALSE,  #
+            fill = "darkolivegreen", alpha = 0.3)+
+  geom_text(data = regions, 
+            aes(x = (start + end) / 2, y = 300, label = annot), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            size = 2, color = "black", angle = 90)
+
+```
+
+```{r SC68 sweep, include=TRUE}
+#Plot of SC 68
+psw3 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="cadetblue") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(1000000, 1200000)) + #bamfield
+  scale_y_continuous(limits = c(0, 100)) +
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 2.7, vjust = 2, size = 4,
+           color="black") +
+  theme_bw() +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position") +
+  geom_rect(data = regions, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 100), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            fill = "darkolivegreen", alpha = 0.3)+
+  geom_text(data = regions, 
+            aes(x = (start + end) / 2, y = 50, label = annot), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            size = 2, color = "black", angle = 90)
+```
+
+```{r SC55 sweep, include=TRUE}
+#Plot of SC 55
+psw4 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="cadetblue") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(3500000, 3600000)) + # c(11200000, 11600000) for Central different location
+  scale_y_continuous(limits = c(0, 150)) +
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 2.7, vjust = 2, size = 4,
+           color="black") +
+  theme_bw() +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position") +
+  geom_rect(data = regions, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 150), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            fill = "darkolivegreen", alpha = 0.3)+
+  geom_text(data = regions, 
+            aes(x = (start + end) / 2, y = 80, label = annot), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            size = 2, color = "black", angle = 90)
+```
+
+```{r SC66 sweep, include=TRUE}
+#Plot of SC 66
+psw6 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="cadetblue") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(9600000,10061508)) + 
+  scale_y_continuous(limits = c(0, 150)) +
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 2.7, vjust = 2, size = 4,
+           color="black") +
+  theme_bw() +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position") +
+  geom_rect(data = regions, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 150), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            fill = "darkolivegreen", alpha = 0.3)+
+  geom_text(data = regions, 
+            aes(x = (start + end) / 2, y = 80, label = annot), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            size = 2, color = "black", angle = 90)
+```
+
+```{r SC59 sweep, include=TRUE}
+#Plot of SC 59
+psw7 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_line(size = 0.2, alpha = 1, color="cadetblue") + 
+  theme_minimal() + 
+  scale_x_continuous(limit = c(2100000,2300000)) + 
+  scale_y_continuous(limits = c(0, 150)) +
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 2.7, vjust = 2, size = 4,
+           color="black") +
+  theme_bw() +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position") +
+  geom_rect(data = regions, 
+            aes(xmin = start, xmax = end, ymin = 0, ymax = 150), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            fill = "darkolivegreen", alpha = 0.3)+
+  geom_text(data = regions, 
+            aes(x = (start + end) / 2, y = 80, label = annot), 
+            inherit.aes = FALSE,  # Prevent inheritance of aesthetics from sweeps1
+            size = 2, color = "black", angle = 90)
+
+```
