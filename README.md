@@ -13,4 +13,5 @@
  
  -scripts for main figures 4-7
 
+-.qassoc.gz upload elsewhere since too big for github 
 
