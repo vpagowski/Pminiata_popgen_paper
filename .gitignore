@@ -1,0 +1,8 @@
+# Ignore SSH keys
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+.ssh/
+*.pub
+ssh-ed25519*

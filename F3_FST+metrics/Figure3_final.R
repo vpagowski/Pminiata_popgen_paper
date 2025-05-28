@@ -76,6 +76,7 @@ fig3a_dummy <- pheatmap(upper_tri,
                     legend = TRUE)
 
 legend_grob <- fig3a_dummy$gtable$grobs[[4]]
+
 #custom viewport for the legend
 legend_vp <- viewport(
   width = unit(0.95, "grobwidth", legend_grob),  # Use legend's natural width
@@ -83,13 +84,12 @@ legend_vp <- viewport(
   just = "left"
 )
 legend_grob <- editGrob(legend_grob, vp = legend_vp)
-
 fig3a <- grid.arrange(legend_grob, g, ncol = 2, widths = c(1, 5))
 
 
 ### Make Coverage Plot | Figure 3B ###
 cov_data <- read.csv("sample_cov_all.csv", header = TRUE, stringsAsFactors = TRUE)
-cov_data<-subset(cov_data,cov_data$Group!="Fort Bragg (AQ)") 
+cov_data<-subset(cov_data,cov_data$Group!="Fort Bragg (AQ)") #remove for main plot
 
 custom_order2<- c("Haida Gwaii (Hi)","Central BC (Hi)","Winter Harbor (Hi)","Ucluelet","Bamfield","Bamfield (Hi)","Fort Bragg", "Fort Bragg (Hi)","Monterey","Monterey Male","Monterey Female","Hazard Canyon","Santa Barbara","Santa Barbara (AQ)","LA (AQ)","San Diego (AQ)","San Diego (Hi)","Ensenada")
 cov_data$Group <- factor(cov_data$Group, levels = custom_order2)

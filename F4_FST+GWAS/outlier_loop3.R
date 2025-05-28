@@ -4,7 +4,7 @@ setwd("/scratch/groups/spalumbi/Veronica/Patiria_sequencing_r2/low_cov/vcf/")
 
 # Get list of all .fst files in the current folder
 #fst_files <- list.files(pattern = "\\.fst$")
-#Or just run with a single file
+#Or just run with a single file (any unzipped .fst file)
 fst_files <- "Male_Female_Mon_R2_mindpop0.5_fst.fst" 
 # Loop over each file and create a plot, arrange by chromosome
 for (file in fst_files) {
@@ -39,7 +39,7 @@ for (file in fst_files) {
     theme(legend.position = "none") +
     labs(y = "FST", x = "Position")
 
-  # Save the plot to a JPEG file
+  # Save the plot to a JPEG file, runs in the cluster
   jpeg_filename <- paste0(tools::file_path_sans_ext(basename(file)), "w.jpg")
   jpeg(jpeg_filename, width = 1920, height = 1080, units = "px", res = 300)
   print(p)
