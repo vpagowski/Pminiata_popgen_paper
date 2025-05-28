@@ -1,0 +1,277 @@
+---
+title: "Make Sweep Plots"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+setwd("/Users/veronicapagowski/Desktop/MOLECOL/F5_Sweep")
+library(stringr)
+library(ggplot2)
+library(gridExtra)
+```
+
+
+```{r plot sweeps fxn }
+#write a function to loop through our sweep files, northern samples where we see the SC72 sweep
+sweep_plots_W <- function(HG,WH,Ucluelet,Bamfield,BamfieldH,Fbragg,name) {
+sweeps1<-read.table(HG, header=TRUE)
+sweeps2<-read.table(WH, header=TRUE)
+sweeps3<-read.table(Ucluelet, header=TRUE)
+sweeps4<-read.table(Bamfield, header=TRUE)
+sweeps5<-read.table(BamfieldH, header=TRUE)
+sweeps6<-read.table(Fbragg, header=TRUE)
+sweeps1$Pop <- "Haida Gwaii (Hi)"
+sweeps2$Pop <- "Winter Harbor (Hi)"
+sweeps3$Pop <- "Ucluelet"
+sweeps4$Pop <- "Bamfield"
+sweeps5$Pop <- "Bamfield (Hi)"
+sweeps6$Pop <- "Fort Bragg"
+
+# Plot both sweeps
+psw1 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps1$location)), by = 10000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   )+
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 1.08, vjust = 2, size = 3, color="black")
+psw1
+
+psw2 <- ggplot(sweeps2, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps2$location)), by = 10000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   )+
+  theme(legend.position = "right") +
+  labs(y = "", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps2$Pop[1], hjust = 1.08, vjust = 2, size = 3, color="black")
+
+psw3 <- ggplot(sweeps3, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps3$location)), by = 10000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   )+
+  theme(legend.position = "right") +
+  labs(y = "", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps3$Pop[1], hjust =1.24, vjust = 2, size = 3, color="black")
+
+psw4 <- ggplot(sweeps4, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps4$location)), by = 10000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   )+
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps4$Pop[1], hjust = 1.12, vjust = 2, size = 3, color="black")
+
+psw5 <- ggplot(sweeps5, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps5$location)), by = 10000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   )+
+  theme(legend.position = "right") +
+  labs(y = "", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps5$Pop[1], hjust = 1.1, vjust = 2, size = 3, color="black")
+
+psw6 <- ggplot(sweeps6, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps6$location)), by = 10000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   )+
+  theme(legend.position = "right") +
+  labs(y = "", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps6$Pop[1], hjust = 1.1, vjust = 2, size = 3, color="black")
+
+combined_plot <<- grid.arrange(psw1, psw2, psw3, psw4, psw5,psw6, nrow = 2)
+jpeg_filename <- paste0(name, ".jpg")
+ggsave(jpeg_filename, plot = combined_plot, width = 1920/300, height = 1000/300, dpi = 300, units = "in", bg="transparent")
+
+}
+```
+
+```{r plot sweeps SC 72}
+sweep_plots_W("SC072_HG_rev2_mindpop0.5.in.out","SC072_WH_rev2_mindpop0.5.in.out","SC072_Ucluelet_rev2_mindpop0.5.in.out","SC072_Bamfield_rev2_mindpop0.5.in.out","SC072_BamfieldH_rev2_mindpop0.5.in.out","SC072_Fbragg_rev2_mindpop0.5.in.out","Pops")
+```
+
+```{r plot sweeps function 2}
+#For Winter Harbor, adjust scale to 300 for SC 53 (big sweep)
+sweep_plots <- function(SC47,SC53,SC55,SC59,SC66,SC68,SC69,SC72,SC74,SC76,name) {
+sweeps1<-read.table(SC47, header=TRUE)
+sweeps2<-read.table(SC53, header=TRUE)
+sweeps3<-read.table(SC55, header=TRUE)
+sweeps4<-read.table(SC59, header=TRUE)
+sweeps5<-read.table(SC66, header=TRUE)
+sweeps6<-read.table(SC68, header=TRUE)
+sweeps7<-read.table(SC69, header=TRUE)
+sweeps8<-read.table(SC72, header=TRUE)
+sweeps9<-read.table(SC74, header=TRUE)
+sweeps10<-read.table(SC76, header=TRUE)
+sweeps1$Pop <- "SC 47"
+sweeps2$Pop <- "SC 53"
+sweeps3$Pop <- "SC 55"
+sweeps4$Pop <- "SC 59"
+sweeps5$Pop <- "SC 66"
+sweeps6$Pop <- "SC 68"
+sweeps7$Pop <- "SC 69"
+sweeps8$Pop <- "SC 72"
+sweeps9$Pop <- "SC 74"
+sweeps10$Pop <- "SC 76"
+# Plot both sweeps
+psw1 <- ggplot(sweeps1, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="mistyrose3") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps1$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps1$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw2 <- ggplot(sweeps2, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps2$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps2$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw3 <- ggplot(sweeps3, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="mistyrose3") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps3$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps3$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw4 <- ggplot(sweeps4, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps4$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps4$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw5 <- ggplot(sweeps5, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="mistyrose3") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps5$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps5$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw6 <- ggplot(sweeps6, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps6$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps6$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw7 <- ggplot(sweeps7, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="mistyrose3") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps7$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps7$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw8 <- ggplot(sweeps8, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps8$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 600), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps8$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw9 <- ggplot(sweeps9, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="mistyrose3") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps9$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps9$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+
+psw10 <- ggplot(sweeps10, aes(x = location, y = LR)) +
+  geom_point(size = 0.2, alpha = 0.3, color="plum4") + 
+  theme_minimal() + 
+  scale_x_continuous(breaks = seq(0, max(as.numeric(sweeps10$location)), by = 1000000), labels = NULL) +
+  scale_y_continuous(limits = c(0, 100), expand = c(0, 0))+
+  theme_bw() +   theme(     panel.grid.major = element_blank(),     panel.grid.minor = element_blank()   ) +
+  theme(legend.position = "right") +
+  labs(y = "CLR", x = "Position")+
+  annotate("text", x = Inf, y = Inf, label = sweeps10$Pop[1], hjust = 1.5, vjust = 2, size = 4, color="black")
+combined_plot <<- grid.arrange(psw1, psw2, psw3, psw4, psw5, psw6, psw7, psw8, psw9, psw10, nrow = 2)
+jpeg_filename <- paste0(name, ".jpg")
+ggsave(jpeg_filename, plot = combined_plot, width = 2080/300, height = 1000/300, dpi = 300, units = "in")
+
+}
+```
+
+``` {r plot sweeps same population}
+#This used for supplemental sweep figure
+#HG
+sweep_plots("SC047_HG_rev2_mindpop0.5.in.out","SC053_HG_rev2_mindpop0.5.in.out","SC055_HG_rev2_mindpop0.5.in.out","SC059_HG_rev2_mindpop0.5.in.out","SC066_HG_rev2_mindpop0.5.in.out","SC068_HG_rev2_mindpop0.5.in.out","SC069_HG_rev2_mindpop0.5.in.out","SC072_HG_rev2_mindpop0.5.in.out","SC074_HG_rev2_mindpop0.5.in.out","SC076_HG_rev2_mindpop0.5.in.out","HG")
+
+#Central
+sweep_plots("SC047_Central_rev2_mindpop0.5.in.out","SC053_Central_rev2_mindpop0.5.in.out","SC055_Central_rev2_mindpop0.5.in.out","SC059_Central_rev2_mindpop0.5.in.out","SC066_Central_rev2_mindpop0.5.in.out","SC068_Central_rev2_mindpop0.5.in.out","SC069_Central_rev2_mindpop0.5.in.out","SC072_Central_rev2_mindpop0.5.in.out","SC074_Central_rev2_mindpop0.5.in.out","SC076_Central_rev2_mindpop0.5.in.out", "Central")
+
+#WH
+sweep_plots("SC047_WH_rev2_mindpop0.5.in.out","SC053_WH_rev2_mindpop0.5.in.out","SC055_WH_rev2_mindpop0.5.in.out","SC059_WH_rev2_mindpop0.5.in.out","SC066_WH_rev2_mindpop0.5.in.out","SC068_WH_rev2_mindpop0.5.in.out","SC069_WH_rev2_mindpop0.5.in.out","SC072_WH_rev2_mindpop0.5.in.out","SC074_WH_rev2_mindpop0.5.in.out", "SC076_WH_rev2_mindpop0.5.in.out","WH")
+
+#Bamfield
+sweep_plots("SC047_Bamfield_rev2_mindpop0.5.in.out","SC053_Bamfield_rev2_mindpop0.5.in.out","SC055_Bamfield_rev2_mindpop0.5.in.out","SC059_Bamfield_rev2_mindpop0.5.in.out","SC066_Bamfield_rev2_mindpop0.5.in.out","SC068_Bamfield_rev2_mindpop0.5.in.out","SC069_Bamfield_rev2_mindpop0.5.in.out","SC072_Bamfield_rev2_mindpop0.5.in.out","SC074_Bamfield_rev2_mindpop0.5.in.out", "SC076_Bamfield_rev2_mindpop0.5.in.out","Bamfield")
+
+#Bamfield (Hi)
+sweep_plots("SC047_BamfieldH_rev2_mindpop0.5.in.out","SC053_BamfieldH_rev2_mindpop0.5.in.out","SC055_BamfieldH_rev2_mindpop0.5.in.out","SC059_BamfieldH_rev2_mindpop0.5.in.out","SC066_BamfieldH_rev2_mindpop0.5.in.out","SC068_BamfieldH_rev2_mindpop0.5.in.out","SC069_BamfieldH_rev2_mindpop0.5.in.out","SC072_BamfieldH_rev2_mindpop0.5.in.out","SC074_BamfieldH_rev2_mindpop0.5.in.out", "SC076_BamfieldH_rev2_mindpop0.5.in.out","BamfieldH")
+
+#Ucluelet
+sweep_plots("SC047_Ucluelet_rev2_mindpop0.5.in.out","SC053_Ucluelet_rev2_mindpop0.5.in.out","SC055_Ucluelet_rev2_mindpop0.5.in.out","SC059_Ucluelet_rev2_mindpop0.5.in.out","SC066_Ucluelet_rev2_mindpop0.5.in.out","SC068_Ucluelet_rev2_mindpop0.5.in.out","SC069_Ucluelet_rev2_mindpop0.5.in.out","SC072_Ucluelet_rev2_mindpop0.5.in.out","SC074_Ucluelet_rev2_mindpop0.5.in.out","SC076_Ucluelet_rev2_mindpop0.5.in.out","Ucluelet")
+
+#Fbragg
+sweep_plots("SC047_Fbragg_rev2_mindpop0.5.in.out","SC053_Fbragg_rev2_mindpop0.5.in.out","SC055_Fbragg_rev2_mindpop0.5.in.out","SC059_Fbragg_rev2_mindpop0.5.in.out","SC066_Fbragg_rev2_mindpop0.5.in.out","SC068_Fbragg_rev2_mindpop0.5.in.out","SC069_Fbragg_rev2_mindpop0.5.in.out","SC072_Fbragg_rev2_mindpop0.5.in.out","SC074_Fbragg_rev2_mindpop0.5.in.out","SC076_Fbragg_rev2_mindpop0.5.in.out", "Fbragg")
+
+#Fbragg (AQ)
+sweep_plots("SC047_FbraggA_rev2_mindpop0.5.in.out","SC053_FbraggA_rev2_mindpop0.5.in.out","SC055_FbraggA_rev2_mindpop0.5.in.out","SC059_FbraggA_rev2_mindpop0.5.in.out","SC066_FbraggA_rev2_mindpop0.5.in.out","SC068_FbraggA_rev2_mindpop0.5.in.out","SC069_FbraggA_rev2_mindpop0.5.in.out","SC072_FbraggA_rev2_mindpop0.5.in.out","SC074_FbraggA_rev2_mindpop0.5.in.out","SC076_FbraggA_rev2_mindpop0.5.in.out", "FbraggA")
+
+
+#Monterey
+sweep_plots("SC047_Monterey_rev2_mindpop0.5.in.out","SC053_Monterey_rev2_mindpop0.5.in.out","SC055_Monterey_rev2_mindpop0.5.in.out","SC059_Monterey_rev2_mindpop0.5.in.out","SC066_Monterey_rev2_mindpop0.5.in.out","SC068_Monterey_rev2_mindpop0.5.in.out","SC069_Monterey_rev2_mindpop0.5.in.out","SC072_Monterey_rev2_mindpop0.5.in.out","SC074_Monterey_rev2_mindpop0.5.in.out","SC076_Monterey_rev2_mindpop0.5.in.out", "Monterey")
+
+#Hazard
+sweep_plots("SC047_Hazard_rev2_mindpop0.5.in.out","SC053_Hazard_rev2_mindpop0.5.in.out","SC055_Hazard_rev2_mindpop0.5.in.out","SC059_Hazard_rev2_mindpop0.5.in.out","SC066_Hazard_rev2_mindpop0.5.in.out","SC068_Hazard_rev2_mindpop0.5.in.out","SC069_Hazard_rev2_mindpop0.5.in.out","SC072_Hazard_rev2_mindpop0.5.in.out","SC074_Hazard_rev2_mindpop0.5.in.out","SC076_Hazard_rev2_mindpop0.5.in.out", "Hazard")
+
+#SB
+sweep_plots("SC047_SB_rev2_mindpop0.5.in.out","SC053_SB_rev2_mindpop0.5.in.out","SC055_SB_rev2_mindpop0.5.in.out","SC059_SB_rev2_mindpop0.5.in.out","SC066_SB_rev2_mindpop0.5.in.out","SC068_SB_rev2_mindpop0.5.in.out","SC069_SB_rev2_mindpop0.5.in.out","SC072_SB_rev2_mindpop0.5.in.out","SC074_SB_rev2_mindpop0.5.in.out","SC076_SB_rev2_mindpop0.5.in.out", "SB")
+
+#LA
+sweep_plots("SC047_LA_rev2_mindpop0.5.in.out","SC053_LA_rev2_mindpop0.5.in.out","SC055_LA_rev2_mindpop0.5.in.out","SC059_LA_rev2_mindpop0.5.in.out","SC066_LA_rev2_mindpop0.5.in.out","SC068_LA_rev2_mindpop0.5.in.out","SC069_LA_rev2_mindpop0.5.in.out","SC072_LA_rev2_mindpop0.5.in.out","SC074_LA_rev2_mindpop0.5.in.out","SC076_LA_rev2_mindpop0.5.in.out", "LA")
+
+#SD
+sweep_plots("SC047_SD_rev2_mindpop0.5.in.out","SC053_SD_rev2_mindpop0.5.in.out","SC055_SD_rev2_mindpop0.5.in.out","SC059_SD_rev2_mindpop0.5.in.out","SC066_SD_rev2_mindpop0.5.in.out","SC068_SD_rev2_mindpop0.5.in.out","SC069_SD_rev2_mindpop0.5.in.out","SC072_SD_rev2_mindpop0.5.in.out","SC074_SD_rev2_mindpop0.5.in.out","SC076_SD_rev2_mindpop0.5.in.out", "SD")
+```
+
+
