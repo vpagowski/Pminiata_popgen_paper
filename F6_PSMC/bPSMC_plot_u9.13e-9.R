@@ -124,10 +124,10 @@ plt_fig6b<-ggplot() +
   scale_x_log10(limits = c(1200, 31623), #10^4.5
                 breaks = c(1e3,10^3.5,1e4, 10^4.5), expand = c(0, 0),
                 labels = trans_format("log10", math_format(10^.x))) +
-  scale_y_continuous(limits = c(0, 3.5e5),  # Linear scale starting from 0
-                     breaks = seq(0, 3.5e5, by = 5e4),
-                     labels = label_number(scale = 1e-3)) + 
-  labs(x = "Generations ago",  y = expression(N[e]~"x"~10^3), title = "") +
+  scale_y_continuous(limits = c(0, 8e5),  # Linear scale starting from 0
+                     breaks = seq(0, 8e5, by = 1e5),
+                     labels = label_number(scale = 1e-5)) + 
+  labs(x = "Generations ago",  y = expression(N[e]~"x"~10^5), title = "") +
   theme_minimal() +
   theme_bw()
 
