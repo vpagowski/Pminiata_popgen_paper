@@ -6,3 +6,4 @@ id_rsa.pub
 .ssh/
 *.pub
 ssh-ed25519*
+*.qassoc.gz
