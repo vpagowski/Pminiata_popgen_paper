@@ -1,0 +1,31 @@
+
+  set size 1, 0.8;
+  set xran [10000:*];
+  set log x;
+  set format x "10^{%L}";
+  set mxtics 10;
+  set mytics 10;
+  unset grid;
+  set key off;
+  set xtics font "Helvetica,16";
+  set ytics nomirror font "Helvetica,16";
+  set xlab "Years (g=5, {/Symbol m}=0.9x10^{-8})" font "Helvetica,16";
+  set t po eps enhance so co "Helvetica,16";
+
+  set yran [0:*];
+  set ylab "Effective population size (x10^4)" font "Helvetica,16";
+  set out "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.eps";
+  set style line 1 lt 1 lc rgb "#FF0000" lw 4;
+  set style line 2 lt 1 lc rgb "#00C000" lw 4;
+  set style line 3 lt 1 lc rgb "#0080FF" lw 4;
+  set style line 4 lt 1 lc rgb "#C000FF" lw 4;
+  set style line 5 lt 1 lc rgb "#00EEEE" lw 4;
+  set style line 6 lt 1 lc rgb "#C04000" lw 4;
+  set style line 7 lt 1 lc rgb "#C8C800" lw 4;
+  set style line 8 lt 1 lc rgb "#FF80FF" lw 4;
+  set style line 9 lt 1 lc rgb "#4E642E" lw 4;
+  set style line 10 lt 1 lc rgb "#800000" lw 4;
+  set style line 11 lt 1 lc rgb "#67B7F7" lw 4;
+  set style line 12 lt 1 lc rgb "#FFC127" lw 4;
+  set style line 32 lt 1 lc rgb "#FFC0C0" lw 1;
+  plot "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.1.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.2.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.3.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.4.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.5.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.6.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.7.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.8.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.9.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.10.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.11.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.12.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.13.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.14.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.15.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.16.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.17.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.18.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.19.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.20.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.21.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.22.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.23.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.24.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.25.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.26.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.27.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.28.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.29.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.30.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.31.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.32.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.33.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.34.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.35.txt" u 1:2 w st not ls 32, "23442Pal_SB-4_S187_b20_combined_gen5_9.13e-9.0.txt" u 1:2 t "popsize" w st ls 1;
