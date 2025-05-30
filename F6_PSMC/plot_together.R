@@ -2,7 +2,8 @@
 setwd("/Users/veronicapagowski/Desktop/MOLECOL/F6_PSMC/")
 fig6a <- readRDS("/Users/veronicapagowski/Desktop/MOLECOL/F6_PSMC/plt_fig6a.rds")
 fig6b <- readRDS("/Users/veronicapagowski/Desktop/MOLECOL/F6_PSMC/plt_fig6b.rds")
-
+library(ggpubr)
+library(ggplot2)
 #Align legend
 fig6a <- fig6a +
   theme(

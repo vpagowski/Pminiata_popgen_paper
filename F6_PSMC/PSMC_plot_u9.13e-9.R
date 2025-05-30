@@ -139,9 +139,9 @@ plt_fig6a<-ggplot() +
                 breaks = c(1e4, 1e5, 1e6, 1e7),
                 labels = trans_format("log10", math_format(10^.x))) +
   scale_y_continuous(limits = c(0, 2e5),expand = c(0, 0), # Linear scale starting from 0
-                     breaks = seq(0, 3.5e5, by = 5e4),
-                     labels = label_number(scale = 1e-3)) + #also scale by 10^3 because easier for me
-  labs(x = "Generations ago",  y = expression(N[e]~"x"~10^3), title = "") +
+                     breaks = seq(0, 3e5, by = 0.5e5),
+                     labels = label_number(scale = 1e-5)) + #also scale by 10^3 because easier for me
+  labs(x = "Generations ago",  y = expression(N[e]~"x"~10^5), title = "") +
   theme_minimal() +
   theme_bw()
 
