@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 #SBATCH -- insert your batch commands here
-#generate a large beagle file to work with
 
 #cluster file contains all population assignments - see plink documentation for details.
 
