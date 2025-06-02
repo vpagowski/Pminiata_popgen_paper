@@ -1,4 +1,5 @@
 #!/bin/bash
+#Except custom settings for time and interval parameters, this is directly from PSMC and beta-PSMC documentation
 
 ml biology bcftools
 ml gcc
