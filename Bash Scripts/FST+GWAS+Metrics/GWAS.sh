@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 #SBATCH -- insert your batch commands here
-#generate a large beagle file to work with
 
 #$FINAL_VCF in bim/bam.bed plink format generated from make vcf file scripts
 #corr_pheno - regressed covariates and PCS
