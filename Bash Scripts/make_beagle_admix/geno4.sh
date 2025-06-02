@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 #SBATCH -- insert your batch commands here
-#generate a large beagle file to work with
 
 #FOLLOWING tutorial with modifications from https://github.com/nt246/lcwgs-guide-tutorial/tree/main (cited in manuscipt). This takes very long - split up by chromosome etc.
 
